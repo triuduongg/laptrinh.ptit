@@ -1,0 +1,6903 @@
+KTBDS005 - Biểu diễn số thành tổng các số chính phương
+
+Đề bài
+Cho số nguyên dương N (1≤N ≤10^9). Hãy đếm số cách biểu diễn N thành tổng của các số chính phương khác không, không tính hoán vị.
+
+Ví dụ:
+
+N=2, có 1 cách biểu diễn là: 2 =1+1.
+
+N=9, có 4 cách biểu diễn là:
+
+9 = 1+1+1+1+1+1+1+1+1
+
+9 = 1+1+1+1+1+4
+
+9 = 1+4+4
+
+9 = 9
+
+
+Dữ liệu vào
+-Số lượng testcase t (t<0<10^3)
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+8
+9
+Output #1 
+
+3
+4
+
+
+
+CTDL051 - DÃY XÂU FIBONACI
+Đề bài
+Một dãy xâu ký tự G chỉ bao gồm các chữ cái A và B được gọi là dãy xâu Fibonacci nếu thỏa mãn tính chất: G(1) = A; G(2) = B; G(n) = G(n-2)+G(n-1). Với phép cộng (+) là phép nối hai xâu với nhau. Bài toán đặt ra là tìm ký tự ở vị trí thứ i (tính từ 1) của xâu Fibonacci thứ n.
+
+
+Dữ liệu vào
+Dòng 1 ghi số bộ test. Mỗi bộ test ghi trên một dòng 2 số nguyên N và i (1<N<93). Số i đảm bảo trong phạm vi của xâu G(N) và không quá 18 chữ số.
+
+
+Dữ liệu ra
+Ghi ra màn hình kết quả tương ứng với từng bộ test.
+
+
+Ví dụ
+Input #1 
+
+2
+6 4
+8 19
+Output #1 
+
+A
+B
+
+
+
+KTBDS002 - Biểu diễn số 02
+
+Đề bài
+Cho số nguyên dương N, K (1≤N, K≤20). Hãy đếm số cách biểu diễn N thành tổng của K số tự nhiên.
+
+Ví dụ: N=2 và K=3, có 6 cách biểu diễn là:
+
+2 = 0+0+2
+
+2 = 0+2+0
+
+2 = 2+0+0
+
+2 = 0+1+1
+
+2 = 1+0+1
+
+2 =1+1+0
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<10^3)
+- Với mỗi testcase, nhập vào số nguyên dương N và K.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 3
+3 2
+Output #1 
+
+6
+4
+
+
+KTCOBAN001 - Số Armstrong
+
+Đề bài
+Số Armstrong là số mà từng chữ số trong số đó lũy thừa với số chữ số của nó bằng chính nó.
+
+Ví dụ: 153 là số Armstrong vì 153 = 1^3 + 5^3 + 3^3
+ Cho số nguyên n ( 1 <n < 10^18).
+. Hãy kiểm tra n có phải là số Armstrong hay không?
+
+
+Dữ liệu vào
+- Số lượng testcase t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi sốxvớix=1 nếu đó là số Armstrong,x=0 nếu không phải.
+
+
+Ví dụ
+Input #1 
+
+2
+153
+137
+Output #1 
+
+1
+0
+
+
+KTCOBAN026 - Bài toán người du lịch
+
+Một đất nước có n thành phố (1 ≤ n ≤ 20). Một người du lịch đến thành phố thứ nhất muốn đi thăm quan tất cả n−1 thành phố khác, mỗi thành phố đúng một lần, rồi quay trở lại thành phố xuất phát.
+
+Cho biết chi phí đi lại giữa các thành phố. Nếu từ thành phố i đến thành phố j nào không mô tả chi phí đi lại thì có nghĩa là không có đường đi trực tiếp từ i đến j.
+
+Hãy giúp người du lịch tìm hành trình với tổng chi phí là nhỏ nhất.
+
+Dữ liệu vào:
+Dòng đầu tiên chứa hai số nguyên dương n, m cách nhau bởi dấu cách (n ≤ 20, m < 400).
+m dòng tiếp theo, mỗi dòng chứa ba số nguyên dương i, j, c (1 ≤ i, j ≤ n, c ≤ 10^6) biểu thị chi phí đi trực tiếp từ thành phố i đến thành phố j là c.
+Dữ liệu ra:
+Ghi ra duy nhất một số là tổng chi phí hành trình nhỏ nhất tìm được.
+Ví dụ:
+Input #1:
+Copy code
+2 2
+1 2 6
+2 1 10
+Output #1:
+Copy code
+16
+
+
+
+
+KTBDS009 - Biểu diễn số thành tổng của các số lẻ
+
+Đề bài
+Cho số nguyên dương N (1≤N≤10^9). Hãy đếm số cách biểu diễn N thành tổng của các số nguyên dương lẻ, tính cả các hoán vị do kết quả có thể rất lớn nên hãy tính theo số dư của phép chia của số cách biểu diễn cho 10^9 +7
+Ví dụ:
+
+N=4, có 3 cách biểu diễn là:
+
+4 = 3+1
+
+4 = 1+3
+
+4 = 1+1+1+1
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<10^3)
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng mộ bộ testcase, cho biết kết quả tìm được. Nếu không biểu diễn được thì ghi ra ra kết quả là -1.
+
+
+Ví dụ
+Input #1 
+
+2
+4
+10
+Output #1 
+
+3
+55
+
+
+
+KTCOBAN005 - Hàm mũ số lớn
+
+Đề bài
+Cho hai số nguyên a và b (1≤a, b≤10^100). Hãy tính kết quả x = a^b chia lấy dư cho MOD, với MOD = 10^9 + 7.
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào hai số nguyên dương a và b.
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+Ví dụ
+Input #1
+1
+2 3
+
+Output #1
+8
+Gợi ý
+Sử dụng công thức lấy MOD đối với MOD nguyên tố và công thức tính MOD:
+
+1) a^b MOD m = (a MOD m)^(b MOD (m-1)) MOD m
+
+2) abcde MOD m = (a MOD m)*10 + (bcde MOD m)
+
+
+
+KTCOBAN010 - Lũy thừa dư
+
+Đề bài
+Cho hai số nguyên dương a và n với 1 ≤ a, n ≤ 10^9. Tính phần dư của phép tính a^n chia cho 10^9 + 7.
+
+Dữ liệu vào
+Số lượng testcase t (t ≥ 1).
+
+Với mỗi testcase, hai số nguyên dương a và n cách nhau bởi dấu cách.
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+Ví dụ
+Input #1
+2
+1 1000
+5 7
+
+Output #1
+1
+78125
+
+
+
+
+
+KTCOBAN104 - NHẦM SỐ
+
+Đề bài
+Trong một buổi học toán, giáo viên viết 2 số nguyên, A và B, và yêu cầu Tý thực hiện phép cộng. Tý không bao giờ tính toán sai, nhưng thỉnh thoảng cậu ta chép các con số một cách không chính xác. Lỗi duy nhất của là ghi nhầm '3' thành '5' hoặc ngược lại. Cho hai số, A và B, tính tổng nhỏ nhất và lớn nhất mà Tý có thể nhận được.
+
+Dữ liệu vào
+Dòng đầu tiên đưa vào số lượng bộ test T (0 < T < 10^3).
+
+Với mỗi test nhập vào một dòng chứa hai số nguyên dương A và B.
+
+Điều kiện: (1 ≤ A, B ≤ 10^6).
+
+Dữ liệu ra
+In ra 2 số nguyên cách nhau một dấu cách, tổng nhỏ nhất và lớn nhất có thể nhận được ứng với mỗi test.
+
+Ví dụ
+Input #1
+2
+13 35
+34 79
+
+Output #1
+46 70
+113 133
+
+
+
+KTCOBAN215 - Tính giá trị biểu thức số lớn
+
+Đề bài
+Cho hai số nguyên không âm n và k thoả mãn điều kiện 0 ≤ k ≤ n ≤ 500. Hãy viết chương trình tính giá trị của biểu thức:
+S(n,k) = n! / (n - k)!
+
+Dữ liệu vào
+Số lượng testcase t (0 < t < 10^3).
+Với mỗi testcase, nhập vào một cặp số nguyên không âm n và k thoả mãn điều kiện 0 ≤ k ≤ n ≤ 500.
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi một giá trị của S(n,k).
+
+Ví dụ
+Input #1
+6
+0 0
+5 2
+10 5
+20 15
+25 10
+50 20
+
+Output #1
+1
+20
+30240
+20274183401472000
+11861676288000
+114660755112113373922453094400000
+
+
+
+KTDEC2HEX - Chuyển đổi thập phân sang hexa
+
+Đề bài
+Cho một số nguyên dương n trong hệ thập phân (1 ≤ n ≤ 10^18). Hãy chuyển đổi số đó sang hệ cơ số 16 (hệ hexa).
+
+Dữ liệu vào
+- Số lượng test T (0 < T < 10^3).
+- Với mỗi test ứng với mỗi mỗi dòng chứa một số ở hệ thập phân.
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+Ví dụ
+Input #1
+3
+100
+5
+10
+
+Output #1
+64
+5
+A
+
+
+
+KTE_003 - Ước nguyên tố luỹ thừa lớn nhất
+
+Đề bài
+Một số tự nhiên n lớn hơn 1 có thể phân tích ra thành tích của các thừa số nguyên tố phân biệt:
+
+n = p1^α1 × p2^α2 × … × pk^αk
+
+với p1, p2, …, pk là các số nguyên tố đôi một phân biệt và α1, α2, …, αk là các số nguyên dương.
+
+Cho một số nguyên dương n. Hãy viết chương trình tìm thừa số nguyên tố pi nhỏ nhất có luỹ thừa lớn nhất (αi là lớn nhất) trong phân tích thành tích các thừa số nguyên tố phân biệt của n.
+
+Dữ liệu vào
+- Số lượng testcase t (0 < t < 10^3).
+- Với mỗi testcase, nhập vào một số nguyên dương n (1 ≤ n ≤ 10^18).
+
+Dữ liệu ra
+Tương ứng với mỗi testcase ghi kết quả là cặp số pi và αi tìm được.
+
+Ví dụ
+Input #1 
+3
+10
+98
+999
+
+Output #1 
+2 1
+7 2
+3 3
+
+
+
+KT_006 - Biểu diễn số
+Báo lỗi
+Đề bài
+Cho số nguyên không âm n (0 < n ≤ 500) và số tự nhiên m (1 < m ≤ 20). Hãy viết chương trình đếm số cách biểu diễn n thành tổng của các số lũy thừa của m, không tính hoán vị.
+
+Ví dụ:
+
+n = 4, m = 2 có 4 cách biểu diễn là:
+
+4 = 2^2
+4 = 2^1 + 2^1
+4 = 2^1 + 2^0 + 2^0
+4 = 2^0 + 2^0 + 2^0 + 2^0
+
+n = 10, m = 3 có 5 cách biểu diễn là:
+
+10 = 3^2 + 3^0
+10 = 3^1 + 3^1 + 3^1 + 3^0
+10 = 3^1 + 3^1 + 3^0 + 3^0 + 3^0 + 3^0
+10 = 3^1 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0
+10 = 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0 + 3^0
+
+Dữ liệu vào:
+- Số lượng testcase t (0 < t < 10^3).
+- Với mỗi testcase, nhập vào số nguyên dương n và số tự nhiên m thoả mãn điều kiện 0 < n ≤ 500 và 1 < m ≤ 20.
+
+Dữ liệu ra:
+Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+Ví dụ:
+Input #1
+5
+4 2
+10 3
+10 5
+27 9
+500 10
+
+Output #1
+4
+5
+3
+4
+156
+
+KT_COBAN61120221 - Đếm dãy
+Báo lỗi
+Đề bài
+Cho số nguyên dương n. Hãy cho biết có bao nhiêu dãy số nguyên dương có tổng các phần tử trong dãy bằng n.
+
+Dữ liệu vào
+Dòng đầu tiên chứa số nguyên T là số bộ dữ liệu, mỗi bộ dữ liệu ghi một số nguyên dương n duy nhất không qua 10^18.
+
+Dữ liệu ra
+Mỗi bộ dữ liệu ghi ra một số nguyên duy nhất là số dư của kết quả tìm được khi chia cho 123456789.
+
+Ví dụ
+Input #1
+1
+3
+
+Output #1
+4
+
+
+
+KT_TONG004 - Tổng lũy thừa bậc n
+
+Đề bài
+Cho hai số nguyên dương m và n (1 ≤ m ≤ 1000 và 2 ≤ n ≤ 10). Hãy đếm số cách biểu diễn m thành tổng lũy thừa bậc n của các số tự nhiên duy nhất.
+
+Ví dụ:
+
+m = 10, n = 2 
+    có 1 cách biểu diễn:
+    10 = 1^2 + 3^2
+
+m = 100, n = 2 
+    có 3 cách biểu diễn:
+    100 = 6^2 + 8^2
+    100 = 1^2 + 3^2 + 4^2 + 5^2 + 7^2
+    100 = 1^2 + 3^2 + 4^2 + 5^2 + 7^2
+
+Dữ liệu vào
+Số lượng testcase t (t ≥ 1).
+
+- Với mỗi testcase, nhập vào hai số nguyên dương m và n.
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số cách biểu diễn tìm được.
+
+Ví dụ:
+Input #1:
+2
+10 2
+100 2
+
+Output #1:
+1
+3
+
+
+
+KT_IP001 - BÀI TOÁN IP
+
+Đề bài
+Một địa chỉ IPv4 là đúng nếu các số nguyên tạo thành địa chỉ nằm trong khoảng [0,255]
+
+Cho một xâu s chứa các số. Tính số lượng địa chỉ IP có thể tạo thành từ xâu đã cho
+Dữ liệu vào
+Dòng đầu tiên nhập vào số lượng bộ test t (0<t<10^3)
+
+Ứng với mỗi test là một xâu chứa các số.
+
+
+Dữ liệu ra
+ứng với mỗi bộ test mỗi dòng là tổng số lượng các địa chỉ 
+I
+P
+IP đúng
+
+
+Ví dụ
+Input #1 
+
+1
+25525511135
+Output #1 
+
+2
+Input #2 
+
+1
+313129242
+Output #2 
+
+4
+Gợi ý
+2 địa chỉ IP đúng là:
+
+255.255.111.35
+
+255.255.11.135
+
+4 địa chỉ IP đúng là:
+
+3.13.129.242
+
+3.131.29.242
+
+31.3.129.242
+
+31.31.29.242
+
+
+
+
+
+
+
+KTGIAITHUA002 - Giai thừa có n số không ở cuối
+Báo lỗi
+
+Đề bài:
+Cho số tự nhiên n (1 ≤ n ≤ 10^16). Hãy tìm số m nhỏ nhất sao cho m! (m giai thừa) có đúng n chữ số không liên tiếp ở cuối.
+
+Ví dụ:
+Với n = 1 thì m = 5 vì 5! = 120.
+
+Dữ liệu vào:
+- Dòng đầu tiên là số testcase t (0 < t < 10^3)
+- Với mỗi testcase, nhập vào số nguyên dương n.
+
+Dữ liệu ra:
+- Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+Ví dụ:
+
+Input #1:
+2
+1
+3
+
+Output #1:
+5
+15
+
+
+
+
+LUYTHUA001 - Tính luỹ thừa a^n
+
+Đề bài:
+Cho hai số nguyên dương a và n với 0 ≤ a ≤ 10^9, 0 ≤ n ≤ 10^4. Tính a^n.
+
+Dữ liệu vào:
+- Số lượng test t (t ≥ 1).
+- Với mỗi test, nhập vào hai số nguyên dương a và n.
+
+Dữ liệu ra:
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+Ví dụ:
+
+Input #1:
+4
+0 100
+2 5
+5 7
+12 3
+
+Output #1:
+0
+32
+78125
+1728
+
+
+
+
+KTSTACK007 - Sửa lại dấu ngoặc
+
+Đề bài
+Cho một xâu chỉ gồm các kí tự ‘(‘,‘) và có độ dài chẵn. Hãy đếm số lượng dấu ngoặc cần phải đổi chiều ít nhất,sao cho xâu mới thu được là một dãy ngoặc đúng.
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+
+Mỗi test gồm 1 xâu S có độ dài không vượt quá 100 000, chỉ gồm dấu ( và ).
+
+
+Dữ liệu ra
+Với mỗi test, in ra đáp án tìm được trên một dòng.
+
+
+Ví dụ
+Input #1 
+
+4	
+))((	
+((((	
+(((())	
+)(())(((	
+Output #1 
+
+2
+2
+1
+3
+
+
+
+
+KTUOCSO008 - Liệt kê các cách phân tích số thành tích các số tự nhiên khác 1
+
+Đề bài
+Cho số nguyên dương N≤10^5
+ . Hãy liệt kê tất cả các cách phân tích số N thành tích của các số tự nhiên lớn hơn 1, không tính hoán vị.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<10^3)
+
+- Với mỗi testcase, nhập vào một số nguyên N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase:
+
+Dòng đầughi tổng số các cách phân tích.
+
+Các dòng tiếp theo lần lượt hiển thị các cách phân tích theo thứ tự từ điển, không tính hoán vị. Mỗi số viết cách nhau bởi một dấu cách.
+
+
+Ví dụ
+Input #1 
+
+2
+4
+12
+Output #1 
+
+1
+2 2
+3
+2 2 3
+2 6
+3 4
+
+
+
+
+KTSTACK005 - Tiền tố sang hậu tố
+
+Đề bài
+Có ba dạng biểu diễn cho các biểu thức số học và logic:
+
+Infix(trung tố): Biểu diễn biểu thức dưới dạng trung tố là phép biểu diễn biểu thức trong đó phép toán được đặt giữa hai toán hạng. Ví dụ (A+B) * (C-D).
+
+Prefix(tiền tố): Biểu diễn biểu thức dưới dạng tiền tố là phép biểu diễn biểu thức trong đó phép toán được đặt trước hai toán hạng. Ví dụ *+AB-CD (tương ứng với biểu thức trung tố(A+B)*(C-D).
+
+Postfix(hậu tố): Biểu diễn biểu thức dưới dạng hậu tố là phép biểu diễn biểu thức trong đó phép toán được đặt sau hai toán hạng. Ví dụ AB+CD-* (tương ứng với biểu thức trung tố(A+B)*(C-D).
+
+Hãy viết chương trình chuyển đổi biểu thức biểu diễn dưới dạng tiền tố về dạng hậu tố.
+
+
+Dữ liệu vào
+Dòng đầu ghi số bộ test. Mỗi bộ test viết trên một dòng một biểu thức tiền tố, trong đó các toán hạng là các chữ cái tiếng anh in thường.
+
+
+Dữ liệu ra
+Mỗidòng in ra một biểu thức hậu tố tương ứng.
+
+
+Ví dụ
+Input #1 
+
+2	
+*+ab-cd	
+*-a/bc-/akl	
+Output #1 
+
+ab+cd-*
+abc/-ak/l-*
+
+
+
+
+
+Đề bài: Bình phương số lớn
+
+Khi làm toán, ta nhận thấy các số có dạng như sau:
+
+1^2 = 1
+11^2 = 121
+111^2 = 12321
+1111^2 = 1234321
+...
+
+Tuy nhiên, khi có nhiều hơn 9 chữ số 1 thì quy luật sẽ thay đổi.
+
+Cho số S = 111...11 (gồm n chữ số 1, trong hệ thập phân), bạn hãy viết chương trình tính S^2.
+
+Dữ liệu vào:
+
+- Số lượng testcase t (t >= 1).
+- Với mỗi testcase, nhập vào số nguyên dương n (1 <= n <= 10^6).
+
+Dữ liệu ra:
+
+- Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+Ví dụ
+
+Input #1:
+2
+1
+3
+
+Output #1:
+1
+12321
+
+
+
+
+
+KTFIBO001 - Tìm số thứ n không thuộc dãy Fibonacci
+Đề bài: Tìm số thứ n không thuộc dãy Fibonacci
+
+Cho số nguyên dương N (1 ≤ N ≤ 10^9). Hãy tìm số tự nhiên thứ n không thuộc dãy Fibonacci.
+
+Ví dụ: Dãy Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 141, …
+
+N = 2, số thứ 2 không thuộc dãy Fibonacci là 6
+
+Dữ liệu vào:
+
+- Số lượng testcase t (0 < t < 10^3).
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+Dữ liệu ra:
+
+- Mỗi dòng tương ứng với một testcase, cho biết kết quả tìm được.
+
+Ví dụ:
+
+Input #1:
+2
+2
+5
+
+Output #1:
+6
+10
+
+
+KTCOBAN021 - Số có hai chữ số A và B
+Đề bài: Số có hai chữ số A và B
+
+Cho số nguyên dương N và hai chữ số A và B (với 0 < N ≤ 10^16, 0 ≤ A, B ≤ 9 và A + B > 0). Hãy tìm số nhỏ nhất thoả mãn điều kiện:
+
+1) Lớn hơn hoặc bằng N
+
+2) Chỉ gồm các chữ số A và B với tổng số chữ số A bằng tổng số chữ số B
+
+Ví dụ: N = 4500, A = 4 và B = 7 thì số cần tìm là 4747 (có 2 chữ số 4 và 2 chữ số 7, 4747 > 4500).
+
+Dữ liệu vào:
+
+- Số lượng testcase t (0 < t < 10^3).
+- Với mỗi testcase, mỗi dòng chứa số nguyên dương N và 2 chữ số A và B, trong đó 0 < N ≤ 10^16.
+
+Dữ liệu ra:
+
+- Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+Ví dụ:
+
+Input #1:
+2
+4500 4 7
+100 1 2
+
+Output #1:
+4747
+1122
+
+
+
+KTBISEARCH002 - Tìm kiếm trong dãy số
+Đề bài: Tìm kiếm trong dãy số
+
+Cho hai dãy số nguyên có n và m phần tử là a1, a2, …, an và b1, b2, …, bm. Trong đó, 1 ≤ n, m ≤ 10^5 và 0 ≤ |ai|, |bi| ≤ 10^9.
+
+Với mỗi chỉ số i (1 ≤ i ≤ m), hãy tìm vị trí xuất hiện đầu tiên của bi trong dãy a1, a2, …, an.
+
+Dữ liệu vào:
+
+- Dòng đầu ghi hai số nguyên dương n và m;
+- Dòng thứ hai ghi n số nguyên a1, a2, …, an;
+- Dòng thứ ba ghi m số nguyên b1, b2, …, bm.
+
+Hai số liên tiếp trên một dòng được ghi cách nhau một dấu cách.
+
+Dữ liệu ra:
+
+- Một dòng duy nhất chứa m số nguyên, trong đó số thứ i (1 ≤ i ≤ m) là chỉ số j nhỏ nhất mà aj = bi (nếu tồn tại) và là 0 nếu ngược lại. Hai số liên tiếp được ghi cách nhau một dấu cách.
+
+Ví dụ:
+
+Input #1:
+7 5
+6 4 7 2 4 1 3
+3 1 5 4 8
+
+Output #1:
+7 6 0 2 0
+
+
+
+
+
+KTBT005 - Xâu từ điển dài nhất
+
+Đề bài
+Cho chuỗi ký tự chỉ bao gồm các chữ cái trong bảng chữ cái Alphabet 26 ký tự (A, B, C, …, Z) với độ dài không quá 26 kí tự. Các ký tự trong chuỗi có thể bao gồm cả chữ hoa và chữ thường. Hãy viết chương trình cho biết độ dài chuỗi con dài nhất bao gồm các ký tự khác nhau và sắp xếp theo thứ tự từ điển (ký tự xuất hiện sau trong chuỗi con cũng xếp sau trong bảng chữ cái). Ví dụ: Chuỗi ký tự đầu vào sAxbCa thì chuỗi con dài nhất là AbC có độ dài là 3.
+
+
+Dữ liệu vào
+- Số lượng testcaset(t≥1).
+
+- Mỗitestcase bao gồm 01 dòng chứa chuỗi ký tự nhập vào.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghiđộdài chuỗi con dài nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+1
+sAxbCa
+
+Output #1 
+
+3
+
+
+
+
+
+
+
+
+
+
+
+KTKT001 - Xâu nhị phân
+
+Báo lỗi
+
+Đề bài
+Giả sử các xâu nhị phân n phần tử được viết theo thứ tự từ điển theo vòng tròn (xâu toàn 1 liền kề với xâu toàn 0). Cho xâu nhị phân X với số phần tử là n và một số tự nhiên K, trong đó 0 < n ≤ 50 và 0 ≤ K ≤ 2^n - 2. Hãy viết chương trình tìm xâu nhị phân Y sao cho có đúng K xâu nhị phân nằm giữa X và Y (không tính X và Y).
+
+Ví dụ:
+
+n = 2, K = 1, X = 01 → Y = 11 (nằm giữa X và Y có 1 xâu là: 10)
+n = 3, K = 4, X = 101 → Y = 010 (nằm giữa X và Y có 4 xâu là: 110, 111, 000 và 001)
+Dữ liệu vào
+
+Số lượng testcase t (t ≥ 1).
+Mỗi testcase gồm 02 dòng:
+Dòng đầu ghi 2 số n, K cách nhau bởi ít nhất 1 dấu cách.
+Dòng 2 ghi xâu nhị phân X.
+Dữ liệu ra
+
+Mỗi dòng tương ứng với một testcase ghi xâu nhị phân n phần tử Y tìm được.
+Ví dụ
+Input #1
+
+2
+3 5
+010
+10 1000
+1010101010
+Output #1
+000
+1010010011
+
+
+
+
+
+
+
+LUYTHUA001 - Tính luỹ thừa a^n
+
+Báo lỗi
+
+Đề bài
+Cho hai số nguyên dương a và n với:
+
+0 ≤ a ≤ 10^9
+0 ≤ n ≤ 10^4
+Tính a^n.
+
+Dữ liệu vào
+
+Số lượng test t (t ≥ 1).
+Với mỗi test, nhập vào hai số nguyên dương a và n.
+Dữ liệu ra
+
+Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+Ví dụ
+
+Input #1
+4
+0 100
+2 5
+5 7
+12 3
+Output #1
+0
+32
+78125
+1728
+
+
+
+
+KT_CSL002 - Phép toán cộng số lớn
+ Báo lỗi
+Đề bài
+Hãy viết chương trình tính tổng của một số nguyên dương 
+n với 2022
+
+Điều kiện: 
+10^99≥n≥0
+
+Dữ liệu vào
+Dòng đầu tiên là số testcase.
+
+Các dòng tiếp theo mỗi dòng là một số n
+
+
+Dữ liệu ra
+Tổng của n và 2022
+
+
+Ví dụ
+Input #1 
+
+1
+10
+Output #1 
+
+2032
+Input #2 
+
+2
+1
+2
+Output #2 
+
+2023
+2024
+
+
+
+
+
+KT_HI003 - Đường đi nhỏ nhất của quân mã
+ Báo lỗi
+Đề bài
+Cho bảng số nguyên không âm có kích thước NxN (0<N≤100). Tìm giá trị đường đi nhỏ nhất của quân mã xuất phát từ vị trí (x1, y1) đến vị trí (x2, y2) với 1≤x1, x2, y1, y2≤N trên bảng số biết rằng:
+
+1) Quân mã di chuyển theo luật cờ quốc tế (xem hình minh họa), và
+
+2) Giá trị đường đi được tính bằng tổng giá trị của các ô đi qua.
+
+Clipboard Image.png
+
+
+Dữ liệu vào
+- Số lượng testcase t (t≥1).
+
+- Với mỗi testcase, nhập vào số nguyên dương N, bảng số kích thước NxN và hai cặp số (x1, y1) và (x2, y2). Mỗi số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi một giá trị đường đi tìm được. Nếu không đến được thì ghi -1.
+
+
+Ví dụ
+Input #1 
+
+1
+5
+1 　2　　 3　 4　 5
+6　 7 　　8　 9 　10
+11　12　 13 　14　 15
+16 　17 　18 　19 　20
+21 　22　 23　 24　 25
+1  1  5  5
+Output #1 
+
+53
+
+
+
+KT_HI002 - Chia dãy số thành hai phần
+ Báo lỗi
+Đề bài
+Cho một dãy số nguyên dương A với N phần tử (0<N<1001) có tổng không vượt quá 105. Hãy chia dãy thành hai nhóm sao cho tích của tổng các phần tử trong hai nhóm là lớn nhất.
+
+Ví dụ:
+
+a) Dãy số A với 5 phần tử: 1 2 3 4 5
+
+Tích lớn nhất của tổng hai nhóm chia được là 56 (Nhóm 1: 1 2 4 và nhóm 2: 3 5)
+
+b) Dãy số A với 1 phần tử: 3
+
+Tích lớn nhất của tổng hai nhóm chia được là 0.
+
+
+Dữ liệu vào
+- Số lượng testcase t (t≥1).
+
+- Với mỗi testcase, nhập vào số nguyên dương N và N số nguyên A[i] (i=1, …, N). Mỗi số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi một giá trị tích lớn nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+5
+1 2 3 4 5
+6
+2 4 6 8 10 12
+Output #1 
+
+56
+440
+
+
+
+
+KTCOBAN101 - ĐẾM CHỮ SỐ
+ Báo lỗi
+Đề bài
+Cho hai số nguyên a, b. Viết tất cả các số nằm giữa a và b tính cả 2 số này. Tính xem mỗi chữ số 0, 1, ..., 9 mỗi số xuất hiện bao nhiêu lần.
+
+Ví dụ, nếu a=1024 và b=1032, dãy sẽ là 1024 1025 1026 1027 1028 1029 1030 1031 1032 và có 10 số 0,10 số 1,7 số 2, ...
+
+
+Dữ liệu vào
+Dòng đầu tiên nhập vào số lượng bộ test T (0<T<10^3)
+
+Các dòng tiếp theo với mỗi bộ test nhập vào hai số nguyên a, b với 0<a,b<10^6.
+
+
+Dữ liệu ra
+Với mỗi bộ test, in ra một dòng 10 số nguyên là số chữ số 0,1, ...,9 tương ứng.
+
+
+Ví dụ
+Input #1 
+
+10
+1 10 
+44 497 
+346 542 
+1199 1748 
+1496 1403 
+1004 503 
+1714 190 
+1317 854 
+1976 494 
+1001 1960 
+Output #1 
+
+1 2 1 1 1 1 1 1 1 1 
+85 185 185 185 190 96 96 96 95 93 
+40 40 40 93 136 82 40 40 40 40 
+115 666 215 215 214 205 205 154 105 106 
+16 113 19 20 114 20 20 19 19 16 
+107 105 100 101 101 197 200 200 200 200 
+413 1133 503 503 503 502 502 417 402 412 
+196 512 186 104 87 93 97 97 142 196 
+398 1375 398 398 405 499 499 495 488 471 
+294 1256 296 296 296 296 287 286 286 247
+
+
+
+
+KT_MN001 - Đếm số kí tự nhìn thấy trong mã nguồn
+ Báo lỗi
+Đề bài
+Chương trình viết bằng C++  muốn chạy được trên máy tính phải trải qua quá trình biên dịch mã nguồn thành mã máy.
+
+Mã nguồn C++ là các file có định dạng .cpp cấu thành từcác kí tự trong bảng mã ASCII.
+
+Cho một file mã nguồn C++ có tên là main.cpp. Hãy viết chương trình đếm số lượng kí tự nhìn thấy được trong file đó.
+
+
+Dữ liệu vào
+File mã nguồn main.cpp
+
+
+Dữ liệu ra
+Số lượng kí tự nhìn thấy trong file main.cpp
+
+
+Ví dụ
+Input #1 
+
+main(){
+}
+Output #1 
+
+8
+Input #2 
+
+#include <iostream>
+main(){
+    std::cout << "Hello";
+}
+Output #2 
+
+45
+
+
+
+KT_COBAN61120223 - SỐ FIBONACCI THỨ N
+ Báo lỗi
+Đề bài
+Dãy số Fibonacci được xác định bằng công thức như sau:F[0] = 0, F[1] = 1;F[n] = F[n-1] + F[n-2] với mọi n >= 2.Các phần tử đầu tiên của dãy số là 0, 1, 1, 2, 3, 5, 8, ...Nhiệm vụ của bạn là hãy xác định số Fibonaci thứ n. Do đáp số có thể rất lớn, in ra kết quả theo modulo 10^9+7
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng bộ test T (T ≤ 1000).Mỗi test bắt gồm một số nguyên N (1 ≤ N ≤ 10^9).
+
+
+Dữ liệu ra
+Với mỗi test, in ra đáp án trên một dòng
+
+
+Ví dụ
+Input #1 
+
+3
+2
+6
+20
+Output #1 
+
+1
+8
+6765
+
+KTBT002 - Khoảng cách hoán vị
+ Báo lỗi
+Đề bài
+Cho A và B là hai hoán vị của dãy số gồm N phần tử với các số từ 1 đến N với 0<N ≤15. Khoảng cách hoán vị giữa hai hoán vị A và B được tính bằng số hoán vị từ A đến B. Hãy viết chương trình tính khoảng cách hoán vị của hai hoán vị đầu vào.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). - Với mỗi testcase, nhập số nguyên dương N và 2 hoán vị N phần tử A và B. Mỗi hoán vị trên một dòng và các phần tử cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi khoảngcách tìm được.
+
+
+Ví dụ
+Input #1 
+
+1
+3
+1 2 3
+2 1 3
+Output #1 
+
+2
+
+
+
+
+KTDT003 - Dãy con dài nhất sao cho các phần tử liền kề có ít nhất một chữ số chung
+ Báo lỗi
+Đề bài
+Đề bài: Cho một mảng arr[] gồm N số nguyên, nhiệm vụ là tìm độ dài của dãy con dài nhất sao cho các phần tử liền kề của dãy con có ít nhất một chữ số chung. Đầu vào: arr[] = {1, 12, 44, 29, 33, 96, 89} Đầu ra: 5 Dãy con dài nhất là {1 12 29 96 89} Đầu vào: arr[] = {12, 23, 45, 43, 36, 97} Kết quả: 4 Dãy con dài nhất là {12 23 43 36}
+
+
+Dữ liệu vào
+-Dòng đầu tiên là số lượng bộ test T (T <= 20). - Dòng tiếp theo nhập vào một số tự nhiên N với N là kích thức của mảng (N<〖10〗^6) -Dòng tiếp theo nhập vào mảng số nguyên N
+
+
+Dữ liệu ra
+- Vớimỗi test,ghi kết quả tìm được trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+1
+6
+12 23 45 43 36 97
+Output #1 
+
+3
+
+
+
+KTSOLON001 - Tổng & Tích
+ Báo lỗi
+Đề bài
+Viết chương trình tính tổng và tích của hai số lớn.
+
+
+Dữ liệu vào
+Từ file
+
+bignumber.in
+
+
+Dữ liệu ra
+Ra file
+
+bignumber.out
+
+
+Ví dụ
+Input #1 
+
+2
+34 + 12
+10 * 1000
+Output #1 
+
+46
+10000
+
+
+KTPOINT - Distance between two points
+ Báo lỗi
+Đề bài
+Implement Point class as indicated:
+
+points.png
+
+You are given a list of points in 2-dimensional coordinate. Write a program to compute the distance between any two points in the list.
+
+
+Dữ liệu vào
+The first line is 
+N
+N: the size of the list.
+
+N
+N lines, each contains two values representing 
+x
+,
+y
+x,y coordinates
+
+
+Dữ liệu ra
+The output file consists of 
+N
+N lines.
+
+The 
+j
+t
+h
+j 
+th
+  value in the 
+i
+t
+h
+i 
+th
+  line is the distance between the 
+i
+t
+h
+i 
+th
+  and 
+j
+t
+h
+j 
+th
+  point in the list.
+
+The distances are written with two digits in their decimal.
+
+
+Ví dụ
+Input #1 
+
+2
+0 0
+0 1
+Output #1 
+
+0.00 1.00
+1.00 0.00
+
+
+
+KTCOBAN203 - Xâu mẹ chung ngắn nhất
+ Báo lỗi
+Đề bài
+Cho hai xâu ký tự A và B không bao gồm ký tự trống và các ký tự đặc biệt với độ dài không quá 500. Xâu mẹ chung của hai xâu A và B là xâu mà cả hai xâu A và B là xâu con của nó. Hãy tìm độ dài của xâu mẹ chung ngắn nhất.
+
+
+Dữ liệu vào
+- Số lượng testcase t (t≥1).
+
+- Với mỗi testcase, nhập vào 2 xâu ký tự A và B. Hai xâu cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi độ dài xâu mẹ tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+ABCDE CODE
+XYZ    TKYAX
+Output #1 
+
+6
+7
+
+
+KTDT002 - Biểu diễn giai thừa
+ Báo lỗi
+Đề bài
+Cho hai số N và M. Tìm số cáchbiểu diễn giai thừa của N thành tổng của hai hay nhiều số liên tiếp. In kết quả modulo M.
+
+
+Dữ liệu vào
+- Dòng đầu tiên là số lượng bộ test T (T <= 20).
+
+-Các dòng tiếp theo mỗi một dòng nhập vào 2 số N, M (0<M,N<10^6);
+
+
+Dữ liệu ra
+- Vớimỗi test,ghi ra kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+4 7
+5 7
+Output #1 
+
+1
+3
+
+
+
+KTDT007 - Loại số
+ Báo lỗi
+Đề bài
+Xét dãy số: số thứ i được tạo bởi việc ghép i số nguyên tố đầu tiên lại. Ví dụ: 2, 23, 235, 2357, 235711, ... Gọi A(n) là số thứ n của dãy. Tìm cách xóa k chữ số ra khỏi số A(n) sao cho số còn lại thu được là lớn nhất có thể.
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng bộ test T (T <= 20). - Các dòng tiếp theo mỗi dòng nhập vào hai số n và k, với 1≤n≤50000 và k không quá số chữ số của n.
+
+
+Dữ liệu ra
+- Vớimỗi test,ghi kết quả tìm được trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+1
+5 4 
+Output #1 
+
+71
+
+
+
+
+KTDT008 - Lũy Thừa
+ Báo lỗi
+Đề bài
+Cho L,R sao cho 2≤L≤R≤〖10〗^12. Tìm số k nguyên dương lớn nhất sao cho tồn tại số nguyên dương X để L≤X^k≤R.
+
+
+Dữ liệu vào
+-Dòng đầu tiên là số lượng test T (0<T<100) - Mỗi dòng tiếp theo chứa hai số nguyên L,R biểu thị một test.
+
+
+Dữ liệu ra
+- Với mỗi test,ghi ra kết quả tìm được trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+4
+5 20
+10 12
+2 100
+1000000000000 1000000000000
+Output #1 
+
+4
+1
+6
+12
+
+
+
+KTCOVUA002 - Số cách đặt quân hậu
+ Báo lỗi
+Đề bài
+Bàn cờ quốc tế có kích thước n⨯n.Quân hậu có khả năng kiểm soát tất cả các ô nằm trên cùng hàng, cột, hoặc trên hai đường chéo đi qua ô đặt nó. Hãy cho biết có bao nhiêu giải pháp đặt n quân hậu trên cùng một bàn cờ sao cho không có quân nào nằm trong ô bị kiểm soát bởi quân hậu khác.
+
+Vídụ: Một cách đặt 8 quân hậu trong bàn cờ 8x8 như sau:
+
+Clipboard Image.png
+
+
+Dữ liệu vào
+- Số lượng test T(0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, nhập vào một số nguyên dương với1 ≤n≤12.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi số giải pháp đặt hậu tìm được.
+
+
+Ví dụ
+Input #1 
+
+3
+2
+4
+8
+Output #1 
+
+0
+2
+92
+
+
+
+KT_11520221 - Lũy thừa ma trận 2
+ Báo lỗi
+Đề bài
+Cho ma trận vuông A kích thước N x N. Nhiệm vụ của bạn là hãy tính ma trận X = A^K với K là số nguyên cho trước. Sau đó tính tổng các phần tử trên đường chéo phụ. Đáp số có thể rất lớn, hãy in ra kết quả theo modulo 10^9 +7.
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng bộ test T (T ≤ 100).
+
+Mỗi test bắt gồm một số nguyên N và K (1 ≤ N ≤ 10, 1 ≤ K ≤ 10^9) là kích thước của ma trận và số mũ.
+
+
+Dữ liệu ra
+Với mỗi test, in ra kết quả của ma trận X.
+
+
+Ví dụ
+Input #1 
+
+2 
+2 5  
+1 1  
+1 0  
+3 1000000000  
+1 2 3  
+4 5 6 
+
+7 8 9 
+Output #1 
+
+10 
+593171300 
+
+
+
+KT_002 - Đường đi ngắn nhất
+ Báo lỗi
+Đề bài
+Cho một bảng 
+A
+A kích thước 
+m
+×
+n
+m×n (
+m
+m dòng, 
+n
+n cột), trên đó ghi các số nguyên không âm 
+a
+i
+j
+aij​ trong khoảng từ 0 đến 1000 với 
+1
+≤
+m
+,
+n
+≤
+100
+1≤m,n≤100. Trên bảng 
+A
+A, từ một ô 
+(
+i
+,
+j
+)
+(i,j) (thuộc dòng thứ 
+i
+i và cột thứ 
+j
+j) ta có thể di chuyển đến một trong các ô là 
+(
+i
+,
+j
++
+1
+)
+,
+(
+i
+−
+1
+,
+j
++
+1
+)
+h
+o
+ặ
+c
+(
+i
++
+1
+,
+j
++
+1
+)
+(i,j+1),(i−1,j+1)hoặc(i+1,j+1) trên cột kế tiếp (cột 
+j
++
+1
+j+1). Giá trị của đường đi được tính theo tổng giá trị của các ô được đi qua trong quá trình di chuyển. Đường đi ngắn nhất là đường đi có giá trị nhỏ nhất.
+
+Xuất phát từ một ô 
+(
+x
+,
+y
+)
+(x,y) ở dòng thứ 
+x
+x trên cột thứ 
+y
+y trong bảng 
+A
+A 
+(
+1
+≤
+x
+≤
+m
+,
+1
+≤
+y
+≤
+n
+)
+(1≤x≤m,1≤y≤n), hãy tìm giá trị của đường đi ngắn nhất đến một ô bất kỳ thuộc cột 
+n
+n.
+
+Ví dụ: Giả sử bảng A có kích thước 4x4 như sau:
+
+4 4
+
+1 2 3 4
+
+5 6 7 8
+
+9 10 11 12
+
+13 14 15 16
+
+Nếu xuất phát từ ô (1,1), ta có giá trị đường đi ngắn nhất là 10 (giá trị các ô đi qua: 1->2->3->4).
+
+Nếu xuất phát từ ô (3, 2), ta có giá trị đường đi ngắn nhất là 21 (giá trị các ô đi qua:10->7->4).
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase:
+
+Dòng đầu ghi hai số  
+m
+,
+n
+m,n là số hàng và số cột của bảng;
+m
+m dòng tiếp theo, dòng thứ 
+i
+i ghi 
+n
+n số trên hàng 
+i
+i của bảng theo đúng thứ tự từ trái qua phải.
+Dòng thứ 
+m
++
+1
+m+1 ghi vị trí của ô xuất phát (hai số 
+x
+x và 
+y
+y).
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi giá trị của đường đi ngắn nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+4 3
+4 15 2 
+22 5 16 
+24 37 28 
+11 6 48 
+4 2
+6 10
+15 9 17 6 15 5 16 3 8 1 
+19 13 25 7 27 24 5 25 27 0 
+6 37 1 15 22 2 31 11 21 29 
+6 2 23 31 21 14 3 21 3 3 
+7 48 12 22 31 52 26 29 26 46 
+22 65 9 42 36 4 28 29 9 47 
+2 1
+Output #1 
+
+34
+76
+
+
+
+KT_T001 - Tính giá trị biểu thức số lớn
+ Báo lỗi
+Đề bài
+Cho số tự nhiên 
+n
+n trong khoảng từ 0 đến 1000. Hãy viết chương trình tính giá trị của biểu thức: 
+S
+(
+n
+)
+=
+2
+n
+×
+n
+!
+S(n)=2 
+n
+ ×n!.
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào một số tự nhiên 
+n
+n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi một giá trị của 
+S
+(
+n
+)
+S(n).
+
+
+Ví dụ
+Input #1 
+
+5
+1
+5
+8
+12
+25
+Output #1 
+
+2
+3840
+10321920
+1961990553600
+520469842636666622693081088000000
+
+
+
+KTTGTBT002 - Biểu thức tổng giai thừa
+ Báo lỗi
+Đề bài
+Với số nguyên dương 
+n
+n (
+1
+≤
+n
+≤
+20
+1≤n≤20) và số thực 
+x
+x. Tính giá trị biểu thức:
+
+S
+(
+x
+,
+n
+)
+=
+∑
+k
+=
+1
+n
+x
+k
+k
+!
+S(x,n)=∑ 
+k=1
+n
+​
+  
+k!
+x 
+k
+ 
+​
+ 
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào 2 số theo tuần tự số nguyên dương 
+n
+n và số thực 
+x
+x. Mỗi số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi một giá trị của S(x,n)với 3 chữ số sau dấu phẩy.
+
+
+Ví dụ
+Input #1 
+
+2
+10 0
+2   1.0
+Output #1 
+
+0.000
+1.500
+
+
+KT_COBAN11620222 - DÃY XÂU FIBONACI
+ Báo lỗi
+Đề bài
+Một dãy xâu ký tự G chỉ bao gồm các chữ cái A và B được gọi là dãy xâu Fibonacci nếu thỏa mãn tính chất: G(1) = A; G(2) = B; G(n) = G(n-2)+G(n-1). Với phép cộng (+) là phép nối hai xâu với nhau. Bài toán đặt ra là tìm ký tự ở vị trí thứ i (tính từ 1) của xâu Fibonacci thứ n.
+
+
+Dữ liệu vào
+Dòng 1 ghi số bộ test. Mỗi bộ test ghi trên một dòng 2 số nguyên N và i (1<N<93). Số i đảm
+
+bảo trong phạm vi của xâu G(N) và không quá 18 chữ số.
+
+
+Dữ liệu ra
+Ghi ra màn hình kết quả tương ứng với từng bộ test.
+
+
+Ví dụ
+Input #1 
+
+2
+6 4
+8 19
+Output #1 
+
+A
+B
+
+
+KTTONG001 - Tổng các số lẻ
+ Báo lỗi
+Đề bài
+Với hai số nguyên dương 
+l
+l và 
+r
+r (
+1
+≤
+l
+≤
+r
+≤
+1≤l≤r≤ 
+1
+0
+9
+10 
+9
+ ). Tính tổng các số lẻ trong đoạn từ 
+l
+l đến 
+r
+r.
+
+
+Dữ liệu vào
+Số lượng testcase 
+t
+t (
+t
+≥
+1
+t≥1). Với mỗi testcase, nhập vào 2 số theo tuần tự số nguyên dương 
+l
+l và 
+r
+r. Hai số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi một giá trị của tổng các số lẻ tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 8
+7 9
+Output #1 
+
+15
+16
+
+
+
+
+
+KTCOBAN004 - Số đối xứng
+ Báo lỗi
+Đề bài
+Một số nguyên dương được gọi là số đối xứng nếu khi viết các chữ số của nó (trong hệ thập phân) theo thứ tự ngược lại ta vẫn được chính số đó. Cho số nguyên dương k (1 ≤ k ≤ 18), đếm xem có bao nhiêu số đối xứng có k chữ số.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào một số nguyên dương k.
+
+
+Dữ liệu ra
+Với mỗi số nguyên dương k, ghi ra trên một dòng số lượng số đối xứng có k chữ số.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+2
+Output #1 
+
+9
+9
+
+
+
+KTTONG004 - Tổng luỹ thừa bậc n
+ Báo lỗi
+Đề bài
+Cho hai số nguyên dương 
+m
+m và 
+n
+(
+(
+1
+≤
+m
+≤
+1000
+n((1≤m≤1000 và 
+2
+≤
+n
+≤
+10
+)
+)
+2≤n≤10)). Hãy đếm số cách biểu diễn 
+m
+m thành tổng lũy ​​thừa bậc 
+n
+n của các số tự nhiên duy nhất.
+
+Ví dụ:
+
+m
+=
+10
+,
+n
+=
+2
+m=10,n=2    có 01 cách biểu diễn: 
+10
+=
+1
+2
++
+3
+2
+10=1 
+2
+ +3 
+2
+ 
+
+m
+=
+100
+,
+n
+=
+2
+m=100,n=2  có 03 cách biểu diễn: 
+100
+=
+1
+0
+2
+=
+6
+2
++
+8
+2
+=
+1
+2
++
+3
+2
++
+4
+2
++
+5
+2
++
+7
+2
+100=10 
+2
+ =6 
+2
+ +8 
+2
+ =1 
+2
+ +3 
+2
+ +4 
+2
+ +5 
+2
+ +7 
+2
+ 
+
+
+Dữ liệu vào
+Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào hai số nguyên dương 
+m
+m và 
+n
+n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số cách biểu diễn tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+10 2
+100 2
+Output #1 
+
+1
+3
+
+
+
+
+
+KTTONG002 - Tổng dãy số liên tiếp
+ Báo lỗi
+Đề bài
+Với hai số nguyên dương l và r (1≤l≤r≤
+1
+0
+9
+10 
+9
+ ). Tính tổng tất cả các số trong đoạn từ l đến r.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào 2 số theo tuần tự số nguyên dương l và r. Hai số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi giá trị tổng tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1 10
+7 9
+Output #1 
+
+55
+24
+
+
+
+KTNGTO003 - Nguyên tố tổng
+ Báo lỗi
+Đề bài
+Cho số nguyên dương 
+n
+(
+1
+≤
+n
+≤
+1
+0
+12
+)
+n(1≤n≤10 
+12
+ ). Hãy tìm số nguyên tố nhỏ nhất không nhỏ hơn 
+n
+n có thể biểu diễn thành tổng của hai số nguyên tố.
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương 
+n
+n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+11
+123456
+Output #1 
+
+13
+123493
+
+
+
+KTDAYSO001 - Dãy cấp số cộng
+ Báo lỗi
+Đề bài
+Dãy cấp số cộng là một dãy số thoả mãn điều kiện: hai phần tử liên tiếp nhau sai khác nhau một hằng số (gọi là công sai của cấp số cộng).
+
+Ví dụ: Dãy số: 
+3
+,
+5
+,
+7
+,
+9
+,
+11
+,
+.
+.
+.
+3,5,7,9,11,... là một cấp số cộng với các phân tử liên tiếp sai khác nhau với công sai là 2.
+
+Cho một dãy số nguyên 
+a
+a gồm 
+n
+n phần tử 
+(
+1
+≤
+n
+≤
+1
+0
+6
+)
+(1≤n≤10 
+6
+ ). Hãy kiểm tra xem dãy đó có phải là dãy cấp số cộng hay không?
+
+
+Dữ liệu vào
+- Dữ liệu nhập vào theo khuôn dạng sau:
+
+- Dòng đầu tiên nhập số nguyên dương 
+n
+n
+
+- Dòng tiếp theo chứa 
+n
+n phần tử của dãy số nguyên 
+a
+a với 
+−
+1
+0
+15
+≤
+a
+i
+≤
+1
+0
+15
+−10 
+15
+ ≤a 
+i
+​
+ ≤10 
+15
+ .
+
+
+Dữ liệu ra
+- Ghi kết quả là YES hoặc NO tương ứng với mỗi testcase trên một dòng xem dãy đó có phải dãy cấp số cộng hay không.
+
+
+Ví dụ
+Input #1 
+
+5
+1 4 7 9 12
+Output #1 
+
+NO
+Input #2 
+
+6
+2 4 6 8 10 12 
+Output #2 
+
+YES
+
+
+KTCOBAN015 - Tổ hợp k phần tử
+ Báo lỗi
+Đề bài
+Cho tập hợp 
+A
+Agồm 
+n
+nphần tử bao gồm các số nguyên dương từ 
+1
+1 đến 
+n
+n, 
+A
+=
+[
+1
+,
+2
+,
+…
+,
+n
+]
+A=[1,2,…,n]. Tập con gồm 
+k
+kphần tử của 
+A
+Alà tập hợp 
+k
+k số nguyên khác nhau thuộc 
+A
+A, không tính hoán vị. Hãy tìm toàn bộ tổ hợp các tập con 
+k
+kphần tử theo thứ tự từ điển của tập hợp trên.
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào hai số nguyên dương 
+n
+n, 
+k
+k 
+(
+1
+≤
+k
+≤
+n
+≤
+10
+)
+(1≤k≤n≤10).
+
+
+Dữ liệu ra
+- Mỗi testcase có dữ liệu ra theo khuôn dạng sau:
+
+Dòng 1 ghi tổng số tập con tìm được.
+
+Các dòng tiếp theo, mỗi dòng lần lượt ghi một tập con 
+k
+kphần tử theo trật tự từ điển với khuôn dạng: 
+[
+x
+1
+,
+x
+2
+,
+…
+,
+x
+k
+]
+[x 
+1
+​
+ ,x 
+2
+​
+ ,…,x 
+k
+​
+ ] với 
+x
+1
+,
+x
+2
+,
+…
+x
+k
+x 
+1
+​
+ ,x 
+2
+​
+ ,…x 
+k
+​
+  là các phần tử thuộc tập con.
+
+
+Ví dụ
+Input #1 
+
+2
+2 1
+3 2
+Output #1 
+
+2
+[1]
+[2]
+3
+[1 2]
+[1 3]
+[2 3]
+
+
+KTHOANVI001 - Liệt kê hoán vị
+ Báo lỗi
+Đề bài
+Cho tập hợp A = {1, 2, …, n} với 1≤n≤15. Liệt kê các hoán vị của A.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào một số nguyên dương n.
+
+
+Dữ liệu ra
+Tương ứng với mỗi testcase, ghi mỗi dòng là một hoán vị của tập A, các hoán vị liệt kê theo thứ tự từ điển tăng dần, mỗi số trên một dòng cách nhau bởi một dấu cách.
+
+
+Ví dụ
+Input #1 
+
+1
+3
+Output #1 
+
+1 2 3
+1 3 2
+2 1 3
+2 3 1
+3 1 2
+3 2 1
+
+
+
+KTGIAITHUA001 - Giai thừa số lớn
+ Báo lỗi
+Đề bài
+Viết chương trình tính giai thừa của số tự nhiên n: S(n) = n! với 0≤n≤10000.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào một số tự nhiên n.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi một giá trị của S(n).
+
+
+Ví dụ
+Input #1 
+
+2
+0
+2
+Output #1 
+
+1
+2
+
+
+
+
+
+KTUOCSO006 - Cặp số bạn bè
+ Báo lỗi
+Đề bài
+Hai số nguyên dương a và b được gọi là cặp số bạn bè nếu như tổng các ước số nhỏ hơn chính nó của số này đúng bằng số kia và ngược lại.
+
+Cho các cặp nguyên dương a, b(1≤a, b≤
+1
+0
+12
+10 
+12
+ ).Hãy kiểm tra xem hai số có phải là cặp số bạn bè không?
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, nhập vào hai số nguyên dương a và b.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một test ghi kết quả là YES nếu đúng hoặc NO nếu không đúng.
+
+
+Ví dụ
+Input #1 
+
+2
+20 10
+220 284
+Output #1 
+
+NO
+YES
+
+
+
+KTGIAITHUA003 - Đếm số số 0 liên tiếp cuối n!
+ Báo lỗi
+Đề bài
+Cho số nguyên dương 
+n
+n (
+0
+≤
+n
+≤
+1
+0
+16
+0≤n≤10 
+16
+ ). Hãy đếm số số 0 liên tiếp ở cuối của 
+n
+!
+n!.
+
+
+Dữ liệu vào
+- Số lượng test 
+T
+T (
+0
+<
+T
+<
+1
+0
+3
+0<T<10 
+3
+ ).
+
+- Với mỗi test, nhập vào số nguyên dương 
+n
+n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+3
+6
+30
+100
+Output #1 
+
+1
+7
+24
+
+
+
+KTCOBAN110 - Tìm số
+ Báo lỗi
+Đề bài
+Cho trước một số N. Hãy tìm số nguyên dương nhỏ nhất có đúng N ước.
+
+
+Dữ liệu vào
+Dòng đầu tiên nhập vào số lượng test T (T<20)
+Các dòng tiếp theo ứng với mỗi bộ test nhập vào một số nguyên N duy nhất (1≤n≤1000).
+
+Dữ liệu ra
+ứng với mỗi test in ra số nguyên dương nhỏ nhất (không vượt quá 
+1
+0
+18
+10 
+18
+ ) có đúng N ước. Biết rằng kết quả của các test luôn nằm trong giới hạn của đề.
+
+
+Ví dụ
+Input #1 
+
+1
+4
+Output #1 
+
+6
+
+
+
+
+KTCOBAN108 - Số đặc biệt
+ Báo lỗi
+Đề bài
+Tại PTIT sinh viên quan niệm 8 và 6 được coi là những chữ số may mắn. Bất cứ số nguyên nào chỉ chứa chữ số 8 và 6 được coi là số may mắn, ví dụ 6, 8, 66, 668, 88, 886…. Duy là một học sinh rất thích toán. Duy thích các số may mắn nhưng chỉ thích các số có dạng 
+S
+=
+8.....86....6
+S=8.....86....6
+
+Trong đó S có ít nhất một chữ số và chữ số 6 và 8 không nhất thiết phải đồng thời xuất hiện. Ví dụ, 8, 88, 6, 66, 86, 886, 8866 ...là các số có dạng S.
+
+Cho trước một số nguyên dương X (1<X<10000), Duy muốn tìm số may mắn nhỏ nhất dạng S, có không quá 200 chữ số và chia hết cho X. Nhiệm vụ của bạn là viết một chương trình tìm số đó cho Duy.
+
+
+Dữ liệu vào
+Dòng đầu tiên chứa số lượng bộ test T(T<20).
+
+Các dòng tiếp theo chứa một số nguyên X tương ứng với bộ test.
+
+
+Dữ liệu ra
+Với mỗi bộ dữ liệu, ghi ra trên một dòng số may mắn dạng S nhỏ nhất chia hết cho X. Trường hợp không tồn tại số S có không quá 200 chữ số như vậy, ghi −1.
+
+
+Ví dụ
+Input #1 
+
+3
+6
+43
+5 
+Output #1 
+
+6
+86
+-1
+
+
+
+
+KTCOBAN107 - LŨY THỪA MA TRẬN
+ Báo lỗi
+Đề bài
+Cho ma trận vuông A kích thước N x N. Nhiệm vụ của bạn là hãy tính ma trận X = 
+A
+k
+A 
+k
+  với K là số nguyên cho trước.
+
+Đáp số có thể rất lớn, hãy in ra kết quả theo modulo 
+1
+0
+9
+10 
+9
+  +7.
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng bộ test T(T ≤ 100).
+
+Mỗi test bắt gồm một số nguyên N và K (1 ≤ N ≤ 10, 1 ≤ K ≤ 
+1
+0
+9
+10 
+9
+ ) là kích thước của ma trận và số mũ.
+
+
+Dữ liệu ra
+Với mỗi test, in ra kết quả của ma trận X.
+
+
+Ví dụ
+Input #1 
+
+2
+2 5 
+1 1 
+1 0 
+3 1000000000 
+1 2 3 
+4 5 6
+7 8 9
+Output #1 
+
+8 5 
+5 3 
+597240088 35500972 473761863 
+781257150 154135232 527013321 965274212 272769492 580264779
+
+
+
+KTCOBAN105 - GẮN DÂY
+ Báo lỗi
+Đề bài
+Có N sợi dây cần nối lại với nhau thành một sợi duy nhất. Mỗi lần chỉ được phép nối 2 sợi dây với nhau. Thời gian để nối hai sợi dây có độ dài a và b mất tổng cộng a + b phút. Hãy tính xem cần ít nhất bao nhiêu thời gian để có thể nối xong N sợi dây?
+
+
+Dữ liệu vào
+Dòng đầu tiên đưa vào số lượng bộ test T (0<T<
+1
+0
+3
+10 
+3
+ )
+
+Với mỗi test nhập vào số nguyên N (N ≤ 2*
+1
+0
+6
+10 
+6
+ ). Dòng tiếp theo gồm N số nguyên dương c[i] (1 ≤ c[i] ≤ 
+1
+0
+9
+10 
+9
+ ).
+
+
+Dữ liệu ra
+In ra kết quả của bài toán theo modulo 
+1
+0
+9
+10 
+9
+  +7.
+
+
+Ví dụ
+Input #1 
+
+1
+7 
+2 4 1 2 10 2 3
+Output #1 
+
+59
+
+
+
+
+
+KTCOBAN103 - ĐẾM GIAI THỪA
+ Báo lỗi
+Đề bài
+Một ngày nọ, tại lớp học đội tuyển, Natodel và các học sinh khác đang làm bài tập thì bỗng dưng mất điện. Đây là trường hợp vô cùng bất ngờ đối với mọi người trong lớp đội tuyển tin. Để các học sinh của mình không có thời gian để "chém gió", Ktun đã nghĩ ra một bài tập để các học sinh của mình phải giải ra được, bài tập đó có nội dung như sau:
+
+"Cho một số nguyên dương N, bài toán đặt ra là phải tìm tất cả các số không âm X thoả mãn X! có số chữ số bằng N."
+
+Ban đầu Ktun chỉ cho giới hạn rất nhỏ để thử các học sinh của mình, thế nên rất nhanh chóng Natodel và các bạn đã giải bài tập này bằng cách bấm máy tính cầm tay. Nhưng rồi oái oăm hơn, Ktun nhất quyết không cho học sinh chơi nên đã tăng giới hạn của N lên rất cao, điều đó làm cho cả lớp phải run sợ (do không có máy vi tính bên cạnh). Bạn đang sẵn máy tính, hãy giúp các Natodel giải bài tập này để họ có thời gian "chém gió" với nhau.
+
+
+Dữ liệu vào
+Dòng đầu tiên đưa vào số lượng bộ test t (0<t<
+1
+0
+3
+10 
+3
+ )
+
+Ứng với mỗi test nhập số nguyên dương N
+
+
+Dữ liệu ra
+Nếu không có số X nào thỏa mãn thì in ra "NO".
+
+Nếu có số X thỏa mãn thì in ra nhiều dòng:
+
+Dòng thứ nhất chứa số S là số lượng số X.
+S dòng tiếp theo chứa 1 số X ghi theo thứ tự tăng dần. Tương ứng với mỗi test
+
+
+Ví dụ
+Input #1 
+
+2
+45
+5
+Output #1 
+
+1 38
+1 8
+
+
+
+
+
+KTCOBAN102 - Tính 2004^X MOD 29
+ Báo lỗi
+Đề bài
+Xét số nguyên dương X và gọi S là tổng tất cả các ước dương của 
+200
+4
+X
+.
+2004 
+X
+ .
+
+Cần tính phần dư của S cho 29. Ví dụ,với X=1, các ước dương của 
+200
+4
+1
+2004 
+1
+  là 1,2,3,4,6,12,167,334,501,668,1002 và 2004.Do đó S=4704 và số dư của S chia cho 29 là 6.
+
+
+Dữ liệu vào
+Dòng đầu tiên nhập vào số lượng bộ test T (0<T<100)
+
+ứng với mỗi bộ là một số nguyên X (1≤X≤
+1
+0
+8
+10 
+8
+ ).
+
+
+Dữ liệu ra
+Với mỗi bộ test, in ra một kết quả của số dư S chia cho 29 trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+2
+1 
+10000 
+Output #1 
+
+6
+10
+
+
+
+
+KTCOBAN003 - Đếm số chính phương
+ Báo lỗi
+Đề bài
+Số chính phương là số có thể biểu diễn dưới dạng bìnhphương của một số tự nhiên (chẳng hạn 0, 1, 4, 9, 16…).
+
+Hãy viết chương trình đếm số chính phương xem giữa hai số nguyên dương L,R (với1 ≤ L, R ≤
+1
+0
+18
+10 
+18
+ ).
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào hai số nguyên dương L và R.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi số các số chính phương tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 5
+3 25
+Output #1 
+
+1
+4
+
+
+
+KTCOBAN002 - Số Chính Phương
+ Báo lỗi
+Đề bài
+Số chính phương là số có thể biểu diễn bằng bình phương của một số. Ví dụ: 9=
+3
+2
+3 
+2
+ .
+
+Cho số tự nhiên k(1≤k≤18). Hãy tìm số chính phương nhỏ nhất có k chữ số và mỗi chữ số của nó cũng là số chính phương.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào một số tự nhiên k.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số tìm được,nếu không tìm được thì ghi -1.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+3	
+Output #1 
+
+1
+100
+
+
+
+KTGTBT004 - Biểu thức căn-luỹ thừa
+ Báo lỗi
+Đề bài
+Với số nguyên n(1≤n≤20) và số thực x (x≥0). Tính giá trị biểu thức:
+
+S
+(
+x
+,
+n
+)
+=
+x
+n
++
+x
+n
+−
+1
++
+.
+.
+.
+x
+2
++
+x
+S(x,n)= 
+x 
+n
+ + 
+x 
+n−1+... 
+x 
+2
+ + 
+x
+​
+ 
+​
+ 
+ 
+​
+ 
+​
+ 
+
+(S(x, n) có n dấu căn).
+
+
+Dữ liệu vào
+- Số lượng testcase t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương n và số thực x.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi một giá trị của S(n) với 3 chữ số sau dấu phẩy.
+
+
+Ví dụ
+Input #1 
+
+2
+1 1.0
+2 0
+Output #1 
+
+1.000
+0.000
+
+
+
+KTGTBT003 - Biểu thức căn-giai thừa
+ Báo lỗi
+Đề bài
+Với số nguyên n(1≤n≤20). Tính giá trị biểu thức:
+
+S
+(
+n
+)
+=
+n
+!
++
+(
+n
+−
+1
+)
+!
++
+.
+.
+.
+2
+!
++
+1
+!
+3
+n
+n
++
+1
+S(n)= 
+n+1
+  
+n!+ 
+n
+  
+(n−1)!+... 
+3
+  
+2!+ 
+1!
+​
+ 
+​
+ 
+​
+ 
+​
+ 
+
+(S(n) có n dấu căn).
+
+
+Dữ liệu vào
+- Số lượng testcase t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương n.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi một giá trị củaS(n)với 3 chữ số sau dấu phẩy.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+2
+Output #1 
+
+1.000
+1.442
+
+
+
+
+KTTGTBT001 - Đa thức tổng
+ Báo lỗi
+Đề bài
+Với số nguyên dương n(1≤n≤20) và số thực kiểu float x. Tính giá trị biểu thức:
+
+S
+(
+x
+,
+n
+)
+=
+∑
+k
+=
+1
+n
+x
+k
+∑
+i
+=
+1
+k
+i
+S(x,n)=∑ 
+k=1
+n
+​
+  
+∑ 
+i=1
+k
+​
+ i
+x 
+k
+ 
+​
+ 
+
+
+Dữ liệu vào
+- Số lượng testcase t (t≥1).
+
+- Với mỗi testcase, nhập vào 2 số theo tuần tự số nguyên dương n và số thực x. Mỗi số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi một giá trị của S(x,n) với 3 chữ số sau dấu phẩy.
+
+
+Ví dụ
+Input #1 
+
+2
+10 0.0
+2 1
+Output #1 
+
+0.000
+1.333
+
+
+
+
+KTCOBAN008 - Tổng hai số lớn
+ Báo lỗi
+Đề bài
+Cho hai số nguyên không âm a và b có số chữ số không quá 100. Hãy tính tổng hai số.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào hai số nguyên không âm a và b.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi kết quả tổng tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1 1
+12345 54321
+Output #1 
+
+2
+66666
+
+
+
+
+
+KTCOBAN007 - M chữ số đầu trong luỹ thừa
+ Báo lỗi
+Đề bài
+Cho ba số nguyên dương n, k và m (
+1
+≤
+n
+≤
+1
+0
+18
+,
+0
+≤
+k
+≤
+1
+0
+3
+,
+1
+≤
+M
+≤
+18
+1≤n≤10 
+18
+ ,0≤k≤10 
+3
+ ,1≤M≤18). Hãy tìm m chữ số đầu tiên trong kết quả tính 
+n
+k
+n 
+k
+ .
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào ba số nguyên dương n, k, m.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi số m chữ số đầu tiên tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 5 1
+2345 3 3
+Output #1 
+
+3
+128
+
+
+
+
+
+KTUOCSO004 - Ước nguyên tố
+ Báo lỗi
+Đề bài
+Cho một số nguyên dương x thỏa mãn 
+1
+0
+18
+10 
+18
+  ≥ x ≥ 2. Hãy kiểm tra xem tích các ước nguyên tố của x có nhỏ hơn x hay không. Trong trường hợp x chỉ có một ước nguyên tố, ta định nghĩa tích các ước nguyên tố của x chính là ước nguyên tố duy nhất của x.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào một số nguyên dương x.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi chữ YES nếu kết quả kiểm tra đúng, nếu không thì ghi chữ NO.
+
+
+Ví dụ
+Input #1 
+
+3
+2
+3
+4
+Output #1 
+
+NO
+NO
+YES
+
+
+
+
+
+KTNGTO001 - Đếm số nguyên tố hoàn toàn
+ Báo lỗi
+Đề bài
+Số nguyên tố hoàn toàn (full prime) là số nguyên tố mà mỗi chữ số của nó cũng là số nguyên tố. Hãy đếm số các số nguyên tố hoàn toàn nhỏ hơn hoặc bằng một giá trị nguyên dương n cho trước (1≤n≤
+1
+0
+6
+10 
+6
+ ).
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào một số nguyên dương n.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi số lượng số nguyên tố hoàn toàn tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1 100
+Output #1 
+
+0
+8
+
+
+
+
+
+KTDEC2BIN - Đổi hệ thập phân sang hệ nhị phân
+ Báo lỗi
+Đề bài
+Hệ thập phân (cơ số 10) là hệ cơ số mà con người chúng ta sử dụng hàng ngày trong cuộc sống. Thế nhưng, chiếc máy tính của chúng ta lại chỉ có thể làm việc với hệ nhị phân (cơ số 2).
+
+Ví dụ: 8_{10} = 1000_{2} = 1*2^3 + 0*2^2 + 0*2^1 + 0*2^0
+
+Cho một số nguyên dương n trong hệ cơ số 10 (1≤n≤10^18), hãy viết số đó trong hệ cơ số 2 (hệ nhị phân).
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi bộ test, nhập vào số nguyên dương n.
+
+
+Dữ liệu ra
+Với mỗi số nguyên dương n trong hệ thập phân, in ra trên một dòng xâu nhị phân biểu diễn số đó trong hệ nhị phân (không bắt đầu bởi số 0).
+
+
+Ví dụ
+Input #1 
+
+3
+5
+7
+10
+Output #1 
+
+101
+111
+1010
+
+
+
+
+KTUOCSO002 - Ước số nguyên tố
+ Báo lỗi
+Đề bài
+Cho số nguyên 
+n
+n (
+1
+≤
+n
+≤
+1
+0
+12
+1≤n≤10 
+12
+ ). Hãy đếm số lượng các ước số nguyên tố của 
+n
+n.
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+t (
+t
+≥
+1
+t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương 
+n
+n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số các ước số nguyên tố tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+2
+Output #1 
+
+0
+1
+
+
+
+
+KTUOCSO001 - Tổng các ước số
+ Báo lỗi
+Đề bài
+Cho số nguyên n (1≤n≤
+1
+0
+9
+10 
+9
+ ). Hãy tính tổng các ước số nhỏ hơn n của n.
+
+
+Dữ liệu vào
+- Số lượng testcase t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi tổng các ước số tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+4
+Output #1 
+
+0
+3
+
+
+
+
+KTCOVUA001 - Mã đi tuần
+ Báo lỗi
+Đề bài
+Bàn cờ vua kích thước 
+n
+⨯
+n
+n⨯n, các dòng và cột được đánh số từ 
+1
+1 đến 
+n
+(
+1
+≤
+n
+≤
+15
+)
+n(1≤n≤15). Trên bàn cờ, quân mã đặt ở ô 
+(
+x
+,
+y
+)
+(
+1
+≤
+x
+,
+y
+≤
+n
+)
+(x,y)(1≤x,y≤n).Hãy đếm số lượng các ô cờ khác nhau mà quân mã có thể đi qua sau 
+k
+kbước di chuyển.
+
+Ví dụ: Trong bàn cờ vua 8x8 
+(
+n
+=
+8
+)
+(n=8) và số bước di chuyển 
+k
+=
+1
+k=1. Tuỳ thuộc vào vị trí quân mã thì có số lượng ô cờ có thể đến (đánh dấu x) khác nhau.
+
+Quân mã tại vị trí 
+(
+1
+,
+1
+)
+(1,1), số ô bằng 
+3
+3. Quân mã tại vị trí 
+(
+8
+,
+5
+)
+(8,5), số ô là 
+5
+5.
+
+Untitled.png
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào bộ các số nguyên dương theo trật tự 
+n
+,
+k
+,
+x
+n,k,x và 
+y
+y.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số các ô tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+8 1 1 1
+10 2 3 3
+Output #1 
+
+3
+28
+
+
+
+
+KTCOBAN013 - Biến đổi dương
+ Báo lỗi
+Đề bài
+Cho một dãy số nguyên 
+A
+1
+​
+,
+A
+2
+​
+,
+.
+.
+.
+,
+A
+N
+A 
+1
+​
+ ​,A 
+2
+​
+ ​,...,A 
+N
+​
+ ​. Bạn có thể thực hiện phép biến đổi sau với số lần tùy ý (có thể không thực hiện lần nào):
+
+Chọn một vị trí 
+i
+,
+i
+i,itừ 
+1
+1 đến 
+N
+N, và đảo dấu 
+A
+i
+A 
+i
+​
+ ​ (tức là thay thế 
+A
+i
+A 
+i
+​
+ ​ bởi 
+−
+A
+i
+−A 
+i
+​
+ ​)
+Hãy cho biết số phép biến đổi ít nhất cần thực hiện, để dãy thu được thỏa mãn tính chất sau:
+
+Tích của hai phần tử bất kì trong dãy đều là số nguyên dương (nói cách khác, với mỗi cặp 
+(
+i
+,
+j
+)
+(i,j) thỏa mãn 
+1
+≤
+i
+<
+j
+≤
+N
+1≤i<j≤N, ta có 
+A
+i
+​
+×
+A
+j
+​
+>
+0
+A 
+i
+​
+ ​×A 
+j
+​
+ ​>0).
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase:
+
+Dòng đầu tiên gồm số nguyên 
+N
+(
+2
+≤
+N
+≤
+10000
+)
+N(2≤N≤10000) - số phần tử của dãy 
+A
+A.
+Dòng thứ hai gồm 
+N
+Nsố nguyên 
+A
+1
+​
+,
+A
+2
+​
+,
+.
+.
+.
+,
+A
+N
+​
+(
+−
+1000
+≤
+A
+i
+​
+≤
+1000
+)
+A 
+1
+​
+ ​,A 
+2
+​
+ ​,...,A 
+N
+​
+ ​(−1000≤Ai​≤1000) của dãy 
+A
+A.
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi ra một số nguyên duy nhất là số phép biến đổi ít nhất cần thực hiện. Trong trường hợp không có cách biến đổi, hãy in ra -1.
+
+
+Ví dụ
+Input #1 
+
+3
+3
+1 2 -3
+4
+1 2 3 4
+5
+1 3 9 0 -2
+Output #1 
+
+1
+0
+-1
+
+
+
+
+
+
+KTCOBAN012 - Số đối xứng gần nhất
+ Báo lỗi
+Đề bài
+Một số nguyên dương được gọi là số đối xứng nếu khi viết các chữ số của nó (trong hệ thập phân) theo thứ tự ngược lại ta vẫn được chính số đó.
+
+Cho một số nguyên dương n trong hệ cơ số 10 (1≤n≤
+1
+0
+15
+10 
+15
+ ). Hãy tìm số đối xứng gần nhất có hiệu số tuyệt đối với số đã cho là nhỏ nhất. Nếu có hai số cùng cho hiệu số tuyệt đối nhỏ nhất bằng nhau thì đưa ra cả hai kết quả.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1).
+
+Với mỗi bộ test, nhập vào số nguyên dương n.
+
+
+Dữ liệu ra
+Với mỗi bộ test, in ra trên một dòng các kết quả tìm được, nếu có nhiều hơn một kết quả thì in cách nhau bởi một dấu cách theo trật tự từ bé đến lớn.
+
+
+Ví dụ
+Input #1 
+
+2
+10
+1234
+Output #1 
+
+9 11
+1221
+
+
+
+
+
+KTCOBAN011 - Phép chia số lớn
+ Báo lỗi
+Đề bài
+Cho hai số nguyên dương a và b (1≤ a, b ≤
+1
+0
+500
+10 
+500
+ ). Hãy tìm thương (p) và số dư (r) của phép chia a cho b: a=p*b + r với 0 ≤ r < b.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1). Với mỗi testcase, nhập vào hai số nguyên dương a và b.
+
+
+Dữ liệu ra
+Với mỗi testcase ghi hai số là thương và số dư, cách nhau bởi một dấu cách.
+
+
+Ví dụ
+Input #1 
+
+2
+10 5
+32 7
+Output #1 
+
+2 0
+4 4
+
+
+
+
+
+KTNGTO002 - Đếm số nguyên tố
+ Báo lỗi
+Đề bài
+Cho hai số nguyên dương 
+L
+L và 
+R
+R (
+1
+≤
+L
+≤
+R
+≤
+1
+0
+6
+1≤L≤R≤10 
+6
+ ). Hãy đếm số lượng số nguyên tố nằm trong khoảng từ 
+L
+L đến 
+R
+R.
+
+
+Dữ liệu vào
+Số lượng testcase 
+t
+t (
+t
+≥
+1
+t≥1). Với mỗi testcase, nhập vào hai số nguyên dương 
+L
+L và 
+R
+R.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi số lượng số nguyên tố tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 6
+11 14
+Output #1 
+
+3
+2
+
+
+
+KTHOANVI002 - Hoán vị thần kỳ
+ Báo lỗi
+Đề bài
+Cho một mảng A gồm N phần tử được đánh số từ 1 đến 
+N
+N và một số tự nhiên 
+K
+K (trong đó, 
+1
+≤
+N
+≤
+1
+0
+5
+1≤N≤10 
+5
+ , 
+0
+≤
+K
+<
+N
+0≤K<N). Gọi một hoán vị của mảng 
+A
+A là mảng 
+B
+B. Hãy viết chương trình tìm hoán vị 
+B
+B thỏa mãn điều kiện: Các phần tử ở cùng một vị trí trong cả 
+A
+A và 
+B
+B đều có chênh lệch bằng 
+K
+K (
+∣
+A
+[
+i
+]
+−
+B
+[
+i
+]
+∣
+=
+K
+∣A[i]−B[i]∣=K với mọi 
+i
+=
+1..
+N
+i=1..N).
+
+Ví dụ: Cho một mảng gồm 4 phần tử 
+A
+=
+[
+1
+,
+2
+,
+3
+,
+4
+]
+,
+K
+=
+2
+A=[1,2,3,4],K=2. Hoán vị 
+B
+=
+[
+3
+,
+4
+,
+1
+,
+2
+]
+B=[3,4,1,2] thỏa mãn điều kiện đề bài vì: Ta có, 
+B
+[
+0
+]
+−
+A
+[
+0
+]
+=
+3
+−
+1
+=
+2
+B[0]−A[0]=3−1=2, ở các vị trí khác ta có 
+A
+[
+2
+]
+−
+B
+[
+2
+]
+=
+3
+−
+1
+=
+2
+A[2]−B[2]=3−1=2, tương tự với các vị trí còn lại.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1).
+Với mỗi testcase, nhập vào một số nguyên dương 
+N
+N là độ dài của mảng và số 
+K
+K.
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase, ghi hoán vị 
+B
+B tìm được với mỗi phần tử cách nhau ít nhất một dấu cách hoặc ghi -1 nếu không có hoán vị nào thoả mãn.
+
+
+Ví dụ
+Input #1 
+
+2
+3 1
+4 2
+Output #1 
+
+-1
+3 4 1 2
+
+
+
+KTUOCSO005 - Phân tích số
+ Báo lỗi
+Đề bài
+Cho số nguyên dương 
+n
+n. Hãy phân tích 
+n
+n ra thừa số nguyên tố. Tức là tìm các số nguyên tố 
+p
+1
+​
+,
+p
+2
+​
+,
+…
+,
+p
+k
+p 
+1
+​
+ ​,p 
+2
+​
+ ​,…,p 
+k
+​
+ ​ đôi một phân biệt và các số nguyên dương 
+α
+1
+​
+,
+α
+2
+,
+…
+,
+α
+k
+α 
+1
+​
+ ​,α 
+2
+​
+ ,…,α 
+k
+​
+ ​ sao cho:
+
+n
+=
+p
+1
+α
+1
+×
+p
+2
+α
+2
+×
+.
+.
+.
+×
+p
+k
+α
+k
+n=p 
+1
+α 
+1
+​
+ 
+​
+ ×p 
+2
+α 
+2
+​
+ 
+​
+ ×...×p 
+k
+α 
+k
+​
+ 
+​
+ 
+
+
+Dữ liệu vào
+Số lượng testcase 
+t
+t (
+t
+t≥1)
+
+Với mỗi testcase, nhập vào một số nguyên dương 
+n
+n (
+1
+≤
+n
+≤
+1
+0
+18
+1≤n≤10 
+18
+ ).
+
+
+Dữ liệu ra
+Tương ứng với mỗi testcase ghi kết quả như sau:
+
+- Dòng đầu ghi số nguyên dương 
+k
+k (số các thừa số nguyên tố phân biệt).
+
+- 
+k
+k dòng sau, dòng thứ 
+i
+i ghi hai số 
+p
+i
+p 
+i
+​
+ ​ và 
+α
+i
+α 
+i
+​
+ ​ cách nhau một dấu cách, các số 
+p
+i
+p 
+i
+​
+ ​ được sắp xếp tăng dần.
+
+
+Ví dụ
+Input #1 
+
+2
+10
+12
+Output #1 
+
+2
+2 1
+5 1
+2
+2 2
+3 1
+
+
+
+
+KTCOBAN009 - Đếm số chữ số
+ Báo lỗi
+Đề bài
+Viết chương trình đếm số lượng chữ số của một số nguyên 
+n
+n nhập từ bàn phím (∣
+n
+n∣≤
+1
+0
+1000
+10 
+1000
+ ).
+
+
+Dữ liệu vào
+Số lượng testcase 
+t
+t (
+t
+≥
+1
+t≥1). Với mỗi testcase, nhập vào một số nguyên 
+n
+n.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi một chữ số nguyên là số chữ số đếm được.
+
+
+Ví dụ
+Input #1 
+
+2
+-1
+234452
+Output #1 
+
+1
+6
+
+
+
+
+KTBIN2DC - Chuyển đổi nhị phân sang thập phân
+ Báo lỗi
+Đề bài
+Cho một số nguyên dương trong hệ nhị phân (hệ cơ số 2). Hãy chuyển đổi số đó sang hệ cơ số 10.
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test ứng với mỗi dòng chứa một xâu nhị phân có độ dài không vượt quá 63.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+3
+101
+111
+1010
+Output #1 
+
+5
+7
+10
+
+
+
+KTCOBAN017 - Dãy con liên tiếp tổng lớn nhất
+ Báo lỗi
+Đề bài
+Cho mảng các số nguyên A có n phần tử (0≤n≤
+1
+0
+15
+10 
+15
+ ). Hãy tìm giá trị tổng của dãy con liên tiếp có tổng lớn nhất trong A.
+
+Ví dụ: Dãy A với n=8: A={-5, -3, 4, -1, -1,1, 4, -2}, tổng dãy liên tiếp lớn nhất là 7.
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, dòng đầu là số nguyên dương n, dòng sau là các phần tử của dãy số nguyên A, mỗi số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+10
+2 -3 2 -1 5 3 -4 -1 6 -1 
+5
+1 2 3 4 5
+Output #1 
+
+10
+15
+
+
+
+KTUOCSO007 - Tổng ước số khác nhau
+ Báo lỗi
+Đề bài
+Cho hai số nguyên dương n và m(1≤n, m≤
+1
+0
+15
+10 
+15
+ ). Hãy tính tổng các số nguyên dương là ước của n nhưng không phải là ước của m.
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, nhập vào hai số nguyên dương n, m.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+3
+9 18
+18 9
+15 25
+Output #1 
+
+0
+26
+18
+
+
+
+
+KTBISEARCH001 - Tìm vị trí số x trong dãy số
+ Báo lỗi
+Đề bài
+Cho hai dãy số nguyên có n và m phần tử là a1​,a2​,…,an​ và b1​,b2​,…,bm​. Trong đó,1≤n,m≤
+1
+0
+5
+10 
+5
+  và  0≤∣ai​∣,∣bi​∣≤
+1
+0
+9
+10 
+9
+ . Giả sử dãy số a1​,a2​,…,an  ​đã được sắp xếp không giảm (tức là a1​≤a2​≤…≤an​).
+
+Với mỗi chỉ số i  (1≤i≤m)  hãy tìm vị trí xuất hiện đầu tiên của bi​  trong dãy a1,a2​,…,an​.
+
+
+Dữ liệu vào
+·Dòng đầu ghi hai số nguyên dương n và m;
+
+·Dòng thứ hai ghi n số nguyên a1​,a2​, …,an​;
+
+·Dòng thứ ba ghi m số nguyên b1,b2, …,bm​.
+
+Hai số liên tiếp trên một dòng được ghi cách nhau một dấu cách.
+
+
+Dữ liệu ra
+
+Một dòng duy nhất chứa m số nguyên, trong đó số thứ i(1≤i≤m) là chỉ số j nhỏ nhất mà aj=bi(nếu tồn tại) và là 0 nếu ngược lại. Hai số liên tiếp được ghi cách nhau một dấu cách
+
+
+Ví dụ
+Input #1 
+
+7 5
+1 2 3 4 4 6 7
+3 1 5 4 8
+Output #1 
+
+3 1 0 4 0
+
+
+
+
+KTLUYTHUA002 - Tính luỹ thừa a^n mod 10^9+7
+ Báo lỗi
+Đề bài
+Cho hai số nguyên dương a và n với 0≤a,n≤
+1
+0
+9
+10 
+9
+ . Tính phần dư phép chia luỹ thừa 
+a
+n
+a 
+n
+  cho 
+1
+0
+9
+10 
+9
+ +7.
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, nhập vào hai số nguyên dương a và n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+4
+0 100
+2 5
+5 7
+12 3
+Output #1 
+
+0
+32
+78125
+1728
+
+
+
+
+
+KTLUYTHUA001 - Tính luỹ thừa a^n
+ Báo lỗi
+Đề bài
+Cho hai số nguyên dương 
+a
+a và 
+n
+n với 
+0
+≤
+a
+≤
+1
+0
+9
+0≤a≤10 
+9
+ , 
+0
+≤
+n
+≤
+1
+0
+4
+0≤n≤10 
+4
+ . Tính 
+a
+n
+a 
+n
+ .
+
+
+Dữ liệu vào
+- Số lượng test 
+t
+t (
+t
+≥
+1
+t≥1).
+
+- Với mỗi test, nhập vào hai số nguyên dương 
+a
+a và 
+n
+n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+4
+0 100
+2 5
+5 7
+12 3
+Output #1 
+
+0
+32
+78125
+1728
+
+
+
+
+KTNHIPHAN001 - Đếm dãy nhị phân
+ Báo lỗi
+Đề bài
+Xét tập tất cả các dãy số nhị phân có 
+n
+nphần tử được sắp xếp theo thứ tự từ điển 
+A
+=
+a
+[
+0
+]
+,
+…
+,
+a
+[
+2
+n
+−
+1
+]
+A=a[0],…,a[2 
+n
+ −1]. Hãy cho biết có bao nhiêu dãy nhị phân nằm giữa hai dãy nhị phân 
+n
+nphần tử 
+x
+xvà 
+y
+ycho trước.
+
+Ví dụ:
+
+n
+=
+3
+ 
+x
+=
+000
+,
+y
+=
+010
+n=3 x=000,y=010: có 01 dãy nằm giữa là 
+001
+001
+
+n
+=
+3
+ 
+x
+=
+100
+,
+y
+=
+001
+n=3 x=100,y=001: có 02 dãy nằm giữa là: 
+010
+,
+011
+010,011
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương 
+n
+nvới 
+1
+≤
+n
+≤
+64
+1≤n≤64 và hai dãy nhị phân 
+x
+xvà 
+y
+y. Trong đó, 
+n
+nphần tử nhị phân của mỗi dãy được viết liền nhau, hai dãy viết cách nhau bởi 1 dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số dãy nhị phân nằm giữa.
+
+
+Ví dụ
+Input #1 
+
+2
+3 000 010
+3 100 001
+Output #1 
+
+1
+2
+
+
+
+KTGIAITHUA004 - Tính số dư tổ hợp chập k của n khi chia cho m
+ Báo lỗi
+Đề bài
+Cho ba số nguyên không âm n, k và m với 0≤k≤
+1
+0
+5
+10 
+5
+ , k≤n và 0≤n, m≤
+1
+0
+6
+10 
+6
+ .Hãy tính số dư của phép chia tổ hợp chập k của n Ckn khi chia cho m.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với-mỗi testcase, nhập vào ba số nguyên lần lượt là n, k và m.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết số dư tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+3 2 10
+5 3 7
+Output #1 
+
+3
+3
+
+
+
+
+KTDAYSO003 - Đếm số dãy con K phần tử có tổng nhỏ nhất
+ Báo lỗi
+Đề bài
+Cho dãy số nguyên dương  có N phần tử A={a1, a2, …, aN},N≤25, ai# aj với i#j, và số nguyên K.
+
+Hãy đếm số dãy con của A có K phần tử và có tổng các phần tử là nhỏ nhất.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, dữ liệu vào bao gồm:
+
+Dòng đầu tiên chứa 2 số N, K.
+
+Dòng tiếp theo là N phần tử của mảng A.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase ghi số các dãy con K phần tử có tổng nhỏ nhất.
+
+
+Ví dụ
+Input #1 
+
+2
+4 2
+1 2 3 4
+6 3
+1 1 2 2 2 2
+Output #1 
+
+1
+4
+
+
+
+
+
+KTDAYSO002 - Dãy con K phần tử có tổng bằng S
+ Báo lỗi
+Đề bài
+Cho dãy số nguyên phân biệt có N phần tử A={a1, a2, …, aN},N≤25, ai# aj với i#j, và 2 số nguyên K và S.
+
+Hãy đếm số dãy con của A có K phần tử và có tổng các phần tử bằng S.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, dữ liệu vào bao gồm:
+
+Dòng đầutiên chứa 2 số N, K và S.
+
+Dòng tiếp theo là N phần tử của mảng A.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase ghi số các dãy con K phần tử có tổng bằng S.
+
+
+Ví dụ
+Input #1 
+
+1
+5 3 20
+4 6 8 2 12
+Output #1 
+
+1
+
+
+
+
+
+KTCOBAN020 - Tích chữ số lớn nhất
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N(với 0<N≤
+1
+0
+18
+10 
+18
+ ). Hãy tìm giá trị lớn nhất của tích các chữ số của các số nhỏ hơn hoặc bằng N.
+
+Ví dụ: N=50, giá trị lớn nhất của tích các chữ số cần tìm là 36, 36=4*9 (tích các chữ số của số 49<50)
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, mỗi dòng chứa số nguyên n, trong đó 0<N≤
+1
+0
+18
+10 
+18
+ .
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+50
+100
+Output #1 
+
+36
+81
+
+
+
+KTCOBAN019 - Biến đổi số
+ Báo lỗi
+Đề bài
+Cho số nguyên không âm 
+N
+N (với 
+N
+≤
+1
+0
+9
+N≤10 
+9
+ ). Từ một số, người ta có thể thực hiện một chuỗi các bước biến đổi, trong đó, mỗi bước có thể chọn một trong các phép biến đổi sau:
+
+1)Giảm 
+N
+N đi 1
+
+2)Chia cho 2 nếu 
+N
+N chia hết cho 2
+
+3)Chia cho 3 nếu 
+N
+N chia hết cho 3
+
+4)Lấy căn bậc 2 nếu 
+N
+N là số chính phương
+
+Hãy tìm số bước tối thiểu để biến đổi số 
+N
+N về 0.
+
+Ví dụ: 
+N
+N=10: Số bước tối thiểu là 4
+
+Bước 1- Giảm 
+N
+N đi 1: 10-1=9
+
+Bước 2- Chia 3: 9:3=3 hoặc Lấy căn bậc 2
+
+Bước 3-Chia 3: 3:3=1
+
+Bước 4- Giảm 
+N
+N đi 1: 1-1=0
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, mỗi dòng chứa số nguyên 
+N
+N, trong đó 
+1
+≤
+N
+≤
+1
+0
+9
+1≤N≤10 
+9
+ .
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+5
+1
+10
+32
+85
+111
+Output #1 
+
+1
+4
+5
+7
+6
+
+
+
+KTCOBAN018 - Ước luỹ thừa 2 lớn nhất
+ Báo lỗi
+Đề bài
+Cho số nguyên không âm N. Hãy tìm số mũ của ước số lớn nhất có dạng 
+2
+k
+2 
+k
+  của S=N!.
+
+
+Dữ liệu vào
+- Số lượng test T(0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test nhập số nguyên N, trong đó 0≤N≤
+1
+0
+18
+10 
+18
+ .
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+6
+Output #1 
+
+0
+4
+
+
+
+
+
+
+KTTONG005 - Số các bộ số có tổng bằng S
+ Báo lỗi
+Đề bài
+Cho hai số nguyên không âm K và S. Hãy tính tổng số các bộ 3 số nguyên không âm X, Y, Z thoả mãn các điều kiện:
+
+a) 0≤X, Y, Z≤K
+
+b) X+Y+Z=S
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ )
+
+- Với mỗi test ứng với mỗi dòng nhập hai số nguyên K và S, trong đó 2≤K≤2500 và 0≤S≤3000.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 2
+5 15
+Output #1 
+
+6
+1
+
+
+
+
+KTDAYSO10 - Tìm thẻ bị thiếu
+ Báo lỗi
+Đề bài
+Để chuẩn bị cho một sự kiện quan trọng trong hội trường có nhiều dãy và mỗi dãy bố trí được cho N đại biểu tham dự, các bạn sinh viên Khoa Viễn thông I đã lên danh sách mời các đại biểu tham dự và đánh số giấy mời cho mỗi đại biểu trong dãy theo thứ tự tăng dần từ số thứ tự của giấy mời đầu tiên là L (1≤N≤
+1
+0
+8
+10 
+8
+ ).
+
+Trong ngày tổ chức, các đại biểu tham dự đã đưa lại giấy mời và vào trong hội trường.Do khâu tổ chức chưa thực sự tốt, các giấy mời của vị đại biểu chỉ được thutheo dãy nhưng không được sắp xếp lại theo thứ tự ghi trên giấy mời. Đã đến giờ khai mạc nhưng có một dãy có số thứ tự bắt đầu từ L mới chỉ có đúng N-1 đại biểu tham dự. Hãy viết chương trình giúp các bạn sinh viên Khoa tìm được giấy mời của vị đại biểu vắng mặt để kịp liên hệ
+
+Ví dụ:N=5, danh sách giấy mời của các đại biểu tham dự = {1, 2, 3, 5} suy ra Đại biểu số 4 vắng mặt.
+
+
+Dữ liệu vào
+-Số lượng testcase t.
+
+- Với mỗi testcase, nhập vào N là L là số giấy mời đã phát cho các đại biểu và số thứ tự giấy mời đầu tiên của của dãy và một tập N-1 giấy mời thu được từ các đại biểu đã đến với số thứ tự khác nhau nằm trong khoảng từ L đến L+N.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết số thứ tự giấy mời của đại biểu vắng mặt.
+
+
+Ví dụ
+Input #1 
+
+2
+6 1
+1 2 3 5 6
+4 5
+6 8 5 
+Output #1 
+
+4
+7
+
+
+
+KTDAYSO009 - Chênh lệch lớn nhất giữa 0 và 1 trong dãy nhị phân
+ Báo lỗi
+Đề bài
+Cho một dãy nhị phân N phần tử B={b1, b2, …, bN}. Hãy chênh lệch tối đa của bít 0 và bít 1 (hiệu số giữa số bít 0 và số bít 1 là lớn nhất) trong các dãy con của dãy. Trong trường hợp không có bít 0 nào thì ghi kết quả là -1.
+
+Ví dụ:B = "11000010001" thì kết quả ra là: 6 vì dãy con từ chỉ số 2 đến chỉ số 9 (“00001000”), có 7 bít 0 và chỉ có 1 bít 1 nên hiệu số = 6.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào dãy nhị phân B.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết giá trị tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+11000010001
+11111
+Output #1 
+
+6
+-1
+
+
+
+
+KTDAYSO008 - Phân chia dãy số
+ Báo lỗi
+Đề bài
+Cho một dãy N số nguyên S={s1, s2, …, sN}. Hãy chia dãy số này thành hai phần sao cho tổng các phần tử của hai phần chênh nhau là ít nhất.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N (1≤N≤40) và dãy N số nguyên.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết mức chênh lệch tối thiểu giữa hai phần.
+
+
+Ví dụ
+Input #1 
+
+2
+4
+1 2 3 4
+4
+1 6 11 5 
+Output #1 
+
+0
+1
+
+
+
+
+
+KTDAYSO007 - Đếm nhóm chữ số
+ Báo lỗi
+Đề bài
+Cho một dãy N chữ số từ 0 đến 9. Chúng ta có thể nhóm thành các nhóm chữ số nhưng vẫn giữ nguyên trật tự của các chữ số. Hãy đếm số cách nhóm sao cho tổng các chữ số của mỗi nhóm phải nhỏ hơn hoặc bằng tổng các chữ số của nhóm bên phải của nó.
+
+Ví dụ:N=4 và dãy số đầu vào là 1234, kết quả đưa ra là 6. Vì ta có thể nhóm theo 6 cách như sau: [1234], [1-234], [12-34], [1-2-3-4], [12-3-4] và [1-2-34]
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N (1≤N≤40) và dãy N chữ số.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1234
+1119
+Output #1 
+
+6
+7
+
+
+
+KTCOBAN025 - Số Catalan thứ n
+ Báo lỗi
+Đề bài
+Các số Catalan là số thoả mãn điều kiện sau:
+
+image.png
+
+Cho số n, hãy tìm giá trị số Catalan thứ n.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương n (1≤n≤31).
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số tìm được.
+
+
+Ví dụ
+Input #1 
+
+4
+2
+4
+7
+9
+Output #1 
+
+2
+14
+429
+4862
+
+
+
+
+
+KTMATRAN001 - Đường đi lớn nhất
+ Báo lỗi
+Đề bài
+Cho một ma trận các số nguyên không âm A có kích thước N hàng và M cột. Giả sử trên ma trận, từ ô (i, j) ta có thể di chuyển đến mộttrong các ô (i+1, j-1), (i+1, j) hoặc (i+1, j+1). Độ dài đường đi xuất phát từ một ô bất kỳ dòng đầu tiên đến một ô ở dòng thứ N được tính bằng tổng giá trị của các ô đi qua.
+
+Hãy tìm một đường đi từ dòng đầu tiên đến dòng cuối cùng của ma trận sao cho độ dài đường đi là lớn nhất.
+
+
+Dữ liệu vào
+-Số lượng testcase t.
+
+- Với mỗi testcase, nhập vào hai số nguyên dương N và M; N dòng tiếp theo, mỗi dòng chứa M số nguyên không âm của ma trận A.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết độ dài đường đi lớn nhất tìm được
+
+
+Ví dụ
+Input #1 
+
+1
+3 3
+1 2 3
+6 5 4
+7 8 9
+Output #1 
+
+17
+
+
+
+
+KTDAYSO006 - Tạo số lớn nhất
+ Báo lỗi
+Đề bài
+Cho một dãy số gồm n số nguyên dương  a1​,a2​,…,an​.Từ dãy số này, ta có thể ghép các phần tử của dãy lại với nhau để tạo thành một số lớn, mỗi phần tử của dãy chỉ được ghép tối đa một lần. Hãy tìm cách ghép sao cho kết quả đạt được là số nguyên dương lớn nhất.
+
+Ví dụ:Với dãy có 3 số là: 5, 107, 24 ta có thể ghép thành các số sau: 5107, 524, 1075, 10724, 245, 24107, 510724, 524107, 107524,107245, 245107, 241075. Trong đó, số lớn nhất tạo được là 524107.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên n và dãy số n phần tử {ai}.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số lớn nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+1
+3
+5 107 24
+Output #1 
+
+524107
+
+
+
+
+KTCOBAN023 - Số mũ lớn nhất của ước số
+ Báo lỗi
+Đề bài
+Cho hai số nguyên không âm n và p, trong đó p là số nguyên tố. Luỹ thừa x của p là ước số của n! nếu n! chia hết cho 
+p
+x
+p 
+x
+ . Hãy tìm số mũ của ước số lớn nhất của n! là luỹ thừa của p.
+
+
+Dữ liệu vào
+-Số lượng testcase t.
+
+- Với mỗi testcase, nhập vào hai số nguyên n và p.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết số x lớn nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+3 2
+6 3
+Output #1 
+
+1
+2
+
+
+
+
+KTDAYSO005 - Số cô đơn
+ Báo lỗi
+Đề bài
+Cho dãy số nguyên không âm có n phần tử a1, a2, … an với 1≤n≤
+1
+0
+5
+10 
+5
+ và 0≤ai≤
+1
+0
+6
+10 
+6
+ .Một số thuộc dãy ai được gọi là số cô đơn nếu như số đó là duy nhất trong dãy:ai #aj với mọi j#i.Hãy đếm số lượng số cô đơn trong dãy.
+
+
+Dữ liệu vào
+-Số lượng testcase t (t>0).
+
+- Với mỗi test, nhập vào số nguyên n và n phần tử của dãy số.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một test, cho biết số lượng số cô đơn của dãy.
+
+
+Ví dụ
+Input #1 
+
+2
+5
+1 2 5 4 2
+6
+1 2 2 1 3 2
+Output #1 
+
+3
+1
+
+
+
+
+
+KTDAYSO004 - Dãy con đơn điệu tăng dài nhất
+ Báo lỗi
+Đề bài
+Cho dãy số nguyên n phần tử a1, a2, … an với 1≤n≤
+1
+0
+5
+10 
+5
+ và 0≤|ai|≤
+1
+0
+9
+10 
+9
+ .Một dãy con đơn điệu tăng của dãy trên là dãyai1​​,ai2​​,…,aik​​sao cho:i1​<i2​<…<ik​vàai1​​<ai2​​<…<aik​​.Hãy tìm số phần tử của dãy con tăng dài nhất.
+
+
+Dữ liệu vào
+-Số lượng testcase t (t>0).
+
+- Với mỗi testcase, nhập vào số nguyên n và n phần tử của dãy số.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết độ dài dãy con tăng dài nhất.
+
+
+Ví dụ
+Input #1 
+
+1
+6
+1 2 5 4 6 2
+Output #1 
+
+4
+
+
+
+
+
+KTBDS010 - Biểu diễn số thành tổng của các số 1 và 2
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N (1≤N≤
+1
+0
+9
+10 
+9
+ ). Hãy đếm số cách biểu diễn N thành tổng của các số 1 và 2, tính cả các hoán vị. Do kết quả có thể rất lớn nên hãy tính theo số dư của phép chia của số cách biểu diễn cho 
+1
+0
+9
+10 
+9
+ +7.
+
+Ví dụ:
+
+N=3, có 3 cách biểu diễn là:
+
+3 = 2+1
+
+3 = 1+2
+
+3 = 1+1+1
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết kết quả tìm được. Nếu không biểu diễn được thì ghi ra ra kết quả là -1.
+
+
+Ví dụ
+Input #1 
+
+2
+3
+5
+Output #1 
+
+3
+8
+
+
+
+
+KTBDS008 - Biểu diễn số thành tổng của các số chẵn
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N (1≤N≤
+1
+0
+9
+10 
+9
+ ). Hãy đếm số cách biểu diễn N thành tổng của các số nguyên dương chẵn, tính cả các hoán vị. Do kết quả có thể rất lớn nên hãy tính theo số dư của phép chia của số cách biểu diễn cho 
+1
+0
+9
+10 
+9
+ +7.
+
+Ví dụ:
+
+N=6, có 4 cách biểu diễn là:
+
+6 = 6
+
+6 = 4+2
+
+6 = 2+4
+
+6 = 2+2+2
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết kết quảtìm được. Nếu không biểu diễn được thì ghi ra ra kết quả là -1.
+
+
+Ví dụ
+Input #1 
+
+2
+5
+6
+Output #1 
+
+-1
+4
+
+
+
+
+KTBDS007 - Biểu diễn số thành tổng của các số luỹ thừa của 2
+ Báo lỗi
+Đề bài
+Cho số nguyên không âm N (0≤N≤500). Hãy đếm số cách biểu diễn Nthành tổng của các số luỹ thừa của 2, không tính hoán vị.
+
+Ví dụ:
+
+N=4, có 4 cách biểu diễn là:
+
+4 = 2^2
+
+4 = 2^1+2^1
+
+4 = 2^1+2^0+2^0
+
+4 = 2^0+2^0+2^0+2^0
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên không âm N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+4
+10
+Output #1 
+
+4
+14
+
+
+
+KTBDS004 - Biểu diễn số thành tổng K số fibonacci
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N và K (1≤N ≤
+1
+0
+9
+10 
+9
+ , 1≤K≤100). Hãy đếm số cách biểu diễn N thành tổng của K số Fibonacci, không tính hoán vị.
+
+Ví dụ:
+
+N=12 và K=1, có 0 cách biểu diễn.
+
+N=13 và K=3, có 2 cách biểu diễn.
+
+13 = 2+3+8
+
+13 = 3+5+5
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N và K.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+
+Ví dụ
+Input #1 
+
+1
+2 3
+13 3
+Output #1 
+
+0
+2
+
+
+
+
+KTBDS003 - Biểu diễn số 03
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N, K (1≤N, K≤50). Hãy đếm số cách biểu diễnN thành tổng của K số tự nhiên khác 0.
+
+Ví dụ:
+
+N=2 và K=3, có 0 cách biểu diễn.
+
+N=5 và K=3, có 6 cách biểu diễn.
+
+5 = 1+1+3
+
+5 = 1+3+1
+
+5 = 3+1+1
+
+5 = 1+2+2
+
+5 = 2+2+1
+
+5 =2+1+2
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N và K.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số cách tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 3
+5 3
+Output #1 
+
+0
+6
+
+
+
+
+KTBDS001 - Biểu diễn số 01
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N (1≤N≤
+1
+0
+5
+10 
+5
+ ). Hãy đếm số cách biểu diễn N thành tổng của các số tự nhiên khác không và nhỏ hơn N. Do kết quả có thể lớn nên hãy tính theo số dư trong phép chia cho 
+1
+0
+9
+10 
+9
+ +7.
+
+Ví dụ: N=5, có 6 cách biểu diễn là:
+
+5 = 4 + 1
+
+5 = 3 + 2
+
+5 = 3 + 1 + 1
+
+5 = 2 + 2 + 1
+
+5 = 2 + 1 + 1 + 1
+
+5 = 1+ 1 + 1 + 1 + 1
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết kết quả phép chia số cách biểu diễn tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+5
+4
+Output #1 
+
+6
+4
+
+
+KTBT003 - Dãy chữ số đầu tiên của lũy thừa
+ Báo lỗi
+Đề bài
+Cho ba số tự nhiên N, M và K với 0≤N, M≤5000, K nằm trong phạm vi số chữ số của N
+M
+M
+ . Hãy viết chương trình cho biết hiển thị K chữ số hàng cao nhất của N
+M
+M
+  (K chữ số tính từ trái qua phải). Ví dụ:
+
+N=2, M=10, K=2: N
+M
+M
+  = 2
+10
+10
+  = 1024. =>2 chữ số hàng cao nhất là: 10
+
+N=5, M=20, K=5:N
+M
+M
+  = 2
+50
+50
+ =95367431640625=>5 chữ số hàng cao nhất là: 95367
+
+
+Dữ liệu vào
+- Số lượng testcase t (t≥1).
+
+- Với mỗi testcase, nhập vào ba số tự nhiên N, M và K. Mỗi số cách nhau bởi ít nhất một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số K chữ số tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+5 20 5
+10 6 3
+Output #1 
+
+95367
+100
+
+
+
+
+
+
+
+KTCOBAN022 - Mua Sô-cô-la
+ Báo lỗi
+Đề bài
+Một cửa hàng đang có chương trình khuyến mại bán Sô-cô-la như sau: Mỗi hộp Sô-cô-la có giá X đồng;Nếu mua hộp Sô-cô-la ăn rồi giữ lại vỏ hộp đem đổi thì cứ Y vỏ hộp sẽ đổi được 1 hộp Sô-cô-la mới.
+
+Bạn Hương đang có M đồng. Hỏi bạn Hương có thể vừa mua vừa đổi vỏ hộp được tối đa bao nhiêu hộp Sô-cô-la?
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào ba số nguyên lần lượt là X, Y và M (0<X, Y, M <
+1
+0
+8
+10 
+8
+ ).
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết số lượng hộp Sô-cô-la tối đa.
+
+
+Ví dụ
+Input #1 
+
+2
+1 3 15
+3 5 20
+Output #1 
+
+22
+7
+
+
+
+
+
+KTFIBO005 - Biểu diễn số N dưới dạng tổng của các số Fibonacci không lặp lại
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N (1≤N≤
+1
+0
+5
+10 
+5
+ ). Hãy đếm số cách biểu diễn số N thành tổng của các số Fibonacci không lặp lại.
+
+Ví dụ: N=13, các cách biểu diễn số 13 dưới dạng tổng của các số Fibonacci là:
+
+13=13+0=8+5=8+3+2=5+5+3
+
+Vậy, số cách biểu diễn N thành tổng các số Fibonacci không lặp lại là 3 (loại trừ 5+5+3 vì bị lặp 5).
+
+
+Dữ liệu vào
+- Số lượng test T (0<T<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một test, cho biết kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+13
+87
+Output #1 
+
+3
+5
+
+
+
+KTFIBO004 - Biểu diễn số N dưới dạng tổng của 2 số Fibonacci
+ Báo lỗi
+Đề bài
+Cho số nguyên dương 
+N
+N (
+1
+≤
+N
+≤
+1
+0
+6
+1≤N≤10 
+6
+ ). Hãy tìm cặp số Fibonacci có tổng bằng 
+N
+N. Nếu có nhiều hơn một cặp thì chỉ hiển thị cặp đầu tiên (cặp có chứa số Fibonacci nhỏ nhất khác 0). Nếu không tìm được cặp số như vậy thìhiển thị kết quả là -1.
+
+Ví dụ: 
+N
+=
+13
+N=13, các cặp số Fibonacci có tổng là 13 bao gồm: (0, 13) và (5, 8). Kết quả là (5, 8).
+
+
+Dữ liệu vào
+- Số lượng test 
+t
+t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi test, nhập vào số nguyên dương 
+N
+N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một test cho biết kết quả tìm được. Mỗi số viết cách nhau bởi 1 dấu cách.
+
+
+Ví dụ
+Input #1 
+
+2
+13
+17
+Output #1 
+
+0 13
+-1
+
+
+
+
+KTFIBO003 - Số phi Fibonacci kế tiếp
+ Báo lỗi
+Đề bài
+Cho số nguyên dương 
+N
+N (
+1
+≤
+N
+≤
+1
+0
+9
+1≤N≤10 
+9
+ ). Hãy tìm số không phải là số Fibonacci nhỏ nhất lớn hơn 
+N
+N.
+
+Ví dụ: 
+N
+=
+6
+N=6, Số phi Fibonaci cần tìm là 7.
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương 
+N
+N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+4
+10
+Output #1 
+
+6
+11
+
+
+
+
+
+
+KTFIBO002 - Tổng các số Fibonacci chẵn không vượt quá n
+ Báo lỗi
+Đề bài
+Cho số nguyên dương N (1≤N≤
+1
+0
+9
+10 
+9
+ ). Hãy tính tổng các số Fibonacci chẵn có giá trị không vượt quá N.
+
+Ví dụ: N=8, Tổng các số Fibonnaci chẵn không quá 8 là: 2+8 = 10
+
+
+Dữ liệu vào
+- Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+8
+100
+Output #1 
+
+10
+44
+
+
+
+KTDT006 - Hiệu 2 số lớn theo phần bù của 10
+ Báo lỗi
+Đề bài
+Cho hai chuỗi str1 và str2 có độ dài N và M cho trước tương ứng, mỗi chuỗi đại diện cho một số lớn, nhiệm vụ là trừ chuỗi này cho chuỗi kia bằng cách sử dụng phần bù 10 . Giải thích: Phần bù 10 = phần bù 9 + 1 Ví dụ: chúng ta hãy lấy một số thập phân 456, phần bù 9 của số này sẽ là 999-456 sẽ là 543. Bây giờ phần bù 10 sẽ là 543+1=544. (Phần bù của 9 của một số thập phân là phép trừ mỗi chữ số của nó cho 9)
+
+
+Dữ liệu vào
+-Dòng đầu tiên là sốlượng test T (0<T<100)
+
+- Mỗi dòng tiếp theo chứa hai chuỗi số nguyên str1,str2 biểuthị một test, với độ dài của chuỗi str1, str2 <=32 ký tự
+
+
+Dữ liệu ra
+- Vớimỗi test,ghi ra kết quả tìm được trên 1 dòng
+
+
+Ví dụ
+Input #1 
+
+1
+3434243434  22324365765767
+Output #1 
+
+22320931522333
+
+
+
+
+
+KTDT010 - Quân tượng
+ Báo lỗi
+Đề bài
+Cho trước một số nguyên n , nhiệm vụ là in ra số quân tượng lớn nhất có thể đặt trên một bàn cờ nxn sao cho không có hai quân tượng tấn công lẫn nhau. Ví dụ: tối đa 2 tượng có thể được đặt an toàn trên bàn cờ 2 x 2.
+
+
+Dữ liệu vào
+-Dòng đầu tiên là số lượng test T (0<T<10) - Mỗi dòng tiếp theo chứa một số nguyên N tương ứng với mỗi  test (0<N<=10^18).
+
+
+Dữ liệu ra
+- Với mỗi test, ghi ra kết quả tìm được trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+2
+2
+5
+Output #1 
+
+2
+8
+
+
+
+
+
+KTCOBAN119 - Đếm dãy nhị phân thỏa mãn điều kiện
+ Báo lỗi
+Đề bài
+Cho số nguyên không âm N(N<2
+31
+31). Hãy xác định xem trong phạm vi từ 0 tới N có bao nhiêu số mà trong dạng biểu diễn nhị phân của nó có đúng K chữ số 0 có nghĩa.
+
+Ví dụ: N=18,K=3 có 3 số:
+
+1. 8: 1000
+
+2. 17:10001
+
+3. 18:10010
+
+
+Dữ liệu vào
+- Số lượng test t (t≥1).
+
+- Với mỗi test, nhập vào hai số nguyên N và K cách nhau một dấu cách.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một test đưa ra số lượng tìm được.
+
+
+Ví dụ
+Input #1 
+
+1
+18   3
+Output #1 
+
+3
+
+
+
+KTSCTACK004 - BIỂU THỨC HẬU TỐ 1
+ Báo lỗi
+Đề bài
+Hãy sử dụng ngăn xếp để thực hiện việc chuyển các biểu thức trung tố sang hậu tố
+
+
+Dữ liệu vào
+Dòng 1 ghi số N (không quá 20) là số biểu thức trung tố (đúng khuôn dạng) chỉ bao gồm các phép cộng, trừ, nhân,chia, các chữ cái thường từ a đến z và các dấu ngoặc đơn. N dòng tiếp theo mỗi dòng ghi một biểu thức.
+
+
+Dữ liệu ra
+Ghi ra màn hình các biểu thức hậu tố kết quả.
+
+
+Ví dụ
+Input #1 
+
+1	
+((a+b)*(c+d))	
+Output #1 
+
+ab+cd+*
+
+
+
+
+KTSTACK001 - Kiểm tra dãy ngoặc đúng
+ Báo lỗi
+Đề bài
+Cho một xâu chỉ gồm các kí tự ‘(‘, ‘)’, ‘[‘, ‘]’, ‘{‘, ‘}’.Một dãy ngoặc đúng được định nghĩa như sau:
+
+-Xâu rỗng là 1 dãy ngoặc đúng.
+
+-Nếu A là 1 dãy ngoặc đúng thì (A),[A], {A} là 1 dãy ngoặc đúng.
+
+-Nếu A và B là 2 dãy ngoặc đúng thì A B là 1 dãy ngoặc đúng.
+
+Cho một xâu S. Nhiệm vụ của bạn là xác định xâu S có là dãy ngoặc đúng hay không
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+
+Mỗi test gồm 1 xâu S có độ dài không vượt quá 100 000.
+
+
+Dữ liệu ra
+Với mỗi test, in ra “YES” nếu như S là dãy ngoặc đúng, in ra “NO” trong trường hợp ngược lại.
+
+
+Ví dụ
+Input #1 
+
+2
+[()]{}{[()()]()}
+[(])	
+Output #1 
+
+YES
+NO
+
+
+
+KTNGTO008 - Bộ N số nguyên tố
+ Báo lỗi
+Đề bài
+Cho sốnguyên tố P và hai số nguyên không âm S và N (1≤N≤15 và 1≤ P, S≤1000). Hãy tìm tất cả các bộ N số nguyên tố lớn hơn P và có tổng bằng S.
+
+
+Dữ liệu vào
+Nhập vào ba số nguyên dương P (là số nguyên tố), N và S.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một bộ N số tìm được. Nếu không tồn tại thì in ra -1.
+
+
+Ví dụ
+Input #1 
+
+3 4 54
+Output #1 
+
+5 7 11 31 
+5 7 13 29 
+5 7 19 23 
+5 13 17 19 
+7 11 13 23 
+7 11 17 19
+
+
+
+
+
+KTNGTO007 - Tìm số có ước nguyên tố lớn nhất
+ Báo lỗi
+Đề bài
+Cho hai số nguyên không âm L và R (1≤L≤ R≤
+1
+0
+9
+10 
+9
+  và |R-L|≤
+1
+0
+6
+10 
+6
+ ). Hãy tìm số có ước số nguyên tố lớn nhất trong khoảng từ L đến R, nếu có nhiều hơn 1số thì hiển thị số có giá trị lớn nhất.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+-Vớimỗi testcase, nhập vào hai số nguyên dương L và R.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết số tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1 10
+1 100
+Output #1 
+
+7
+97
+
+
+
+
+KTNGTO006 - Tìm số đặc biệt lớn nhất
+ Báo lỗi
+Đề bài
+Cho một số nguyên không âm N (1≤N≤
+1
+0
+5
+10 
+5
+ ). Gọi số đặc biệt là số có ước số nguyên tố lớn nhất lớn hơn căn bậc 2 của nó. Hãy tìm số đặc biệt lớn nhất trong khoảng từ 1 đến N.
+
+Ví dụ:N=15, số cần tìm là 15 vì 15 có ước số nguyên tố lớn nhất là 5 và 5>Căn bậc 2 của 3 = 3.87.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết số tìm được
+
+
+Ví dụ
+Input #1 
+
+2
+15
+25
+Output #1 
+
+15
+23
+
+
+
+
+
+
+KTNGTO005 - Tổng ước nguyên tố lớn nhất của các số không vượt quá N
+ Báo lỗi
+Đề bài
+Cho một số nguyên không âm N (1≤N≤5*
+1
+0
+5
+10 
+5
+ ). Hãy tìm tổng của ước số nguyên tố lớn nhất của tất cả các số nhỏ hơn hoặc bằng N.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng một testcase, cho biết tổng tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+10
+100
+Output #1 
+
+32
+1915
+
+
+
+
+
+KTNGTO004 - Ước nguyên tố lớn nhất
+ Báo lỗi
+Đề bài
+Cho một số nguyên không âm N (1≤N≤
+1
+0
+18
+10 
+18
+ ). Hãy tìm ước số nguyên tố lớn nhất của N.
+
+
+Dữ liệu vào
+-Số lượng testcase t (0<t<
+1
+0
+3
+10 
+3
+ ).
+
+- Với mỗi testcase, nhập vào số nguyên dương N.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng một testcase, cho biết ước nguyên tố lớn nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+100
+987654321
+Output #1 
+
+5
+379721
+
+
+
+
+KTDT001 - Tìm số cách biểu diễn của N thành tổng của hai số tự nhiên liên tiếp trở lên.
+ Báo lỗi
+Đề bài
+Cho số n, tìm tổng số cách biểu diễn số này thành tổng của 2 số tự nhiên liên tiếp trở lên
+
+Ví dụ: Input: 15 Output: 3
+
+Giải thích: 1 2 3 4 5
+
+4 5 6
+
+7 8
+
+
+Dữ liệu vào
+-Dòng đầu tiên là số lượng bộ test T (T <= 20). -Các dòng tiếp theo nhập vào 1 số tự nhiên N (N<〖10〗^18).
+
+
+Dữ liệu ra
+- Vớimỗi test,in ra số cách tìm được
+
+
+Ví dụ
+Input #1 
+
+1
+15
+Output #1 
+
+3
+
+
+
+
+KTSTRING001 - Xâu kí tự
+ Báo lỗi
+Đề bài
+Cho hai xâu kí tự child và parent. Viết chương trình trả lại vị trí xuất hiện đầu tiên của xâu thứ nhất trong xâu thứ hai.
+
+Chú ý:
+
+- Nếu xâu thứ nhất không có trong xâu thứ hai, trả lại giá trị -1.
+
+- Nếu xâu rỗng, trả lại giá trị 0.
+
+
+Dữ liệu vào
+Dữ liệu vào:
+
+- Dòng đầu tiên là số testcase 
+t
+t (0<t<
+1
+0
+3
+10 
+3
+ )
+
+- Các dòng tiếp theo ứng với mỗi test, định dạng như trong ví dụ
+
+
+Dữ liệu ra
+Dữ liệu ra:
+
+- t dòng
+
+- Ứng với mỗi dòng, trả lại vị trí cần tìm
+
+
+Ví dụ
+Input #1 
+
+3
+child = “ell”, parent = “hello”
+child = “kvt”, parent = “ktlt2021”
+child = “”, parent = “”
+Output #1 
+
+1
+-1
+0
+
+
+
+
+KTDT005 - Hiệu 2 số lớn theo phần bù của 9
+ Báo lỗi
+Đề bài
+Cho hai chuỗi str1 và str2 có độ dài N và M cho trước tương ứng, mỗi chuỗi đại diện cho một số lớn, nhiệm vụ là trừ chuỗi này cho chuỗi kia bằng cách sử dụng phần bù 9. Giải thích: -Phần bù của 9 của một số thập phân là phép trừ mỗi chữ số của nó cho 9. Giống như Ví dụ: chúng ta hãy tính giá trị của phần bù 718 cho 9 là 281
+
+
+Dữ liệu vào
+Dòng đầu tiên là số lượng test T (0<T<100)
+
+- Mỗi dòng tiếp theo chứa hai chuỗi số nguyên str1,str2 biểu thị một test, với độ dài của chuỗi str1, str2 <=32 ký tự
+
+
+Dữ liệu ra
+- Vớimỗi test,ghi ra kết quả tìm được trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+1
+12345678987654321 22324324343
+Output #1 
+
+12345656663329978
+
+
+
+
+KTTAPCON001 - Tập con
+ Báo lỗi
+Đề bài
+Cho một mảng số nguyên 
+I
+I gồm 
+n
+n phần tử.
+
+Trả lại kết quả tổng tất cả các tập con có thể tạo thành từ mảng trên.
+
+Chú ý: Mảng 
+I
+I có thể chứa các phần tử giống nhau, và kết quả trả lại không tính hoán vị.
+
+
+Dữ liệu vào
+- Dòng đầu tiên là số testcase 
+t
+t (0<t<
+1
+0
+3
+10 
+3
+ )
+
+- Các dòng tiếp theo ứng với mỗi testcase, số đầu tiên là 
+n
+n, theo sau là 
+n
+n phần tử của mảng
+
+
+Dữ liệu ra
+- 
+t
+t dòng
+
+- Ứng với mỗi dòng, số đầu tiên là số lượng các tập con có thể tạo thành, theo sau là tập con dài nhất và có tổng các phần tử là lớn nhất được sắp xếp tăng dần theo định dạng 
+[
+i
+1
+,
+i
+2
+,
+i
+3
+,
+.
+.
+.
+]
+[i 
+1
+​
+ ,i 
+2
+​
+ ,i 
+3
+​
+ ,...]
+
+
+Ví dụ
+Input #1 
+
+2
+3 1 2 2
+2 1 0
+Output #1 
+
+5 [1, 2, 2]
+3 [0, 1]
+
+
+
+
+
+KTTSTRING002 - XÂU THỜI GIAN
+ Báo lỗi
+Đề bài
+Cho một xâu thời gian có định dạng là 
+h
+h
+:
+m
+m
+hh:mm
+
+Trong đó, một số thông tin bị giấu đi bởi dấu 
+?
+?
+
+Một xâu thời gian chuẩn thay đổi từ 
+00
+:
+00
+00:00 đến 
+23
+:
+59
+23:59. Hãy viết chương trình trả lại thời gian lớn nhất có thể tạo được từ xâu đã cho.
+
+
+Dữ liệu vào
+Dòng đầu tiên là số testcase 
+t
+t.
+
+Mỗi dòng sau đó là một xâu thời gian với thông tin bị giấu bởi dấu 
+?
+?
+
+
+Dữ liệu ra
+Thời gian lớn nhất có thể tạo được từ xâu đã cho
+
+
+Ví dụ
+Input #1 
+
+1
+time = "1?:?0"
+Output #1 
+
+"19:50"
+Input #2 
+
+3
+time = "0?:3?"
+time = "1?:22"
+time = "??:?5"
+Output #2 
+
+"09:39"
+"19:22"
+"23:55"
+
+
+KTCOBAN016 - Bình phương số lớn
+ Báo lỗi
+Đề bài
+Khi làm toán ta nhận thấy 
+1
+1
+2
+=
+121
+,
+11
+1
+2
+=
+12321
+,
+111
+1
+2
+=
+1234321
+,
+…
+11 
+2
+ =121,111 
+2
+ =12321,1111 
+2
+ =1234321,… nhưng khi có nhiều hơn 9 chữ số 1 thì quy luật sẽ thay đổi.
+
+Cho số 
+S
+=
+111
+…
+11
+S=111…11 (gồm 
+n
+n chữ số 
+1
+1, trong hệ thập phân). Bạn hãy viết chương trình tính 
+S
+2
+S 
+2
+ .
+
+
+Dữ liệu vào
+- Số lượng testcase 
+t
+(
+t
+≥
+1
+)
+t(t≥1).
+
+- Với mỗi testcase, nhập vào số nguyên dương 
+n
+(
+1
+≤
+n
+≤
+1
+0
+6
+)
+n(1≤n≤10 
+6
+ ).
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi kết quả tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+1
+3
+Output #1 
+
+1
+12321
+
+
+
+
+KTCOBAN201 - Mật khẩu hợp lệ
+ Báo lỗi
+Đề bài
+Một mật khẩu hợp lệ nếu thỏa mãn những điều kiện sau:
+
+Có ít nhất 
+8
+8 kí tự
+Có ít nhất một chữ in hoa
+Có ít nhất một chữ in thường
+Có ít nhất một số
+Có ít nhất một kí tự đặc biệt! @ # $ % ^ & * ( ) - +
+Hai kí tự cạnh nhau không giống nhau
+Hãy viết chương trình kiểm tra mật khẩu đã cho.
+
+
+Dữ liệu vào (From File: password.in)
+Mỗi dòng là một mật khẩu
+
+
+Dữ liệu ra (To File: res.out)
+Tương ứng với mỗi dòng, in ra VALID nếu mật khẩu hợp lệ và INVALID nếu không hợp lệ
+
+
+Ví dụ
+Input #1 
+
+123456
+Output #1 
+
+INVALID
+Input #2 
+
+CP2021@ktdl
+CP2022@ktdl
+Output #2 
+
+VALID
+INVALID
+
+
+
+
+KTTONG003 - Đường đi có tổng lớn nhất
+ Báo lỗi
+Đề bài
+Cho một bảng A kích thước  m×n (m dòng, n cột), trên đó ghi các số nguyên aij​ với 1≤m, n≤100. Một người xuất phát tại ô nào đó của cột 1, cần sang cột n (tại ô nào cũng được).
+
+Quy tắc đi: Từ ô (i, j) chỉ được quyền sang một trong 3 ô (i, j+1); (i−1, j+1); (i+1, j+1). Hãy tìm một đường đi sao cho tổng tất cả các số trên đường đi đó là lớn nhất.
+
+
+Dữ liệu vào
+-Số lượng testcase t (t≥1).
+
+-Với mỗi testcase:
+
+Dòng đầu ghi hai số  m,n là số hàng và số cột của bảng;
+
+m dòng tiếp theo, dòng thứ i ghi n số trên hàng i của bảng theo đúng thứ tự từ trái qua phải.
+
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase ghi tổng lớn nhất tìm được.
+
+
+Ví dụ
+Input #1 
+
+2
+2 2
+1 3
+2 2
+5 7
+9 -2 6 2 1 3 4
+0 -1 6 7 1 3 3
+8 -2 8 2 5 3 2
+1 -1 6 2 1 6 1
+7 -2 6 2 1 3 7
+Output #1 
+
+5
+41
+
+
+
+
+KTUOCSO003 - Số hoàn hảo
+ Báo lỗi
+Đề bài
+Số hoàn hảo (hay còn gọi là số hoàn chỉnh, số hoàn thiện hoặc số hoàn thành) là một số nguyên dương mà tổng các ước nguyên dương chính thức của số đó (ngoại trừ số đó) bằng chính nó. Ví dụ: 6 có tổng các ước số không tính nó là: 1+2+3 =6 nên 6 là số hoàn hảo.
+
+Cho số nguyên n (1≤n≤10^
+18
+18). Hãy kiểm tra xem n có phải là số hoàn hảo hay không?
+
+
+Dữ liệu vào
+- Số lượng testcase t(t≥1).
+
+- Với mỗi testcase, nhập vào một số nguyên dương n.
+
+
+Dữ liệu ra
+- Mỗi dòng tương ứng với một testcase ghi số x với x=1 nếu đó là số hoàn hảo, x=0 nếu không phải.
+
+
+Ví dụ
+Input #1 
+
+2
+15
+6
+Output #1 
+
+0
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
