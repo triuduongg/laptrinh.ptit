@@ -42,7 +42,7 @@ Output #1
 
 
 
-CTDL051 - DÃY XÂU FIBONACI
+KT_COBAN11620222 - DÃY XÂU FIBONACI
  Báo lỗi
 Đề bài
 Một dãy xâu ký tự G chỉ bao gồm các chữ cái A và B được gọi là dãy xâu Fibonacci nếu thỏa mãn tính chất: G(1) = A; G(2) = B; G(n) = G(n-2)+G(n-1). Với phép cộng (+) là phép nối hai xâu với nhau. Bài toán đặt ra là tìm ký tự ở vị trí thứ i (tính từ 1) của xâu Fibonacci thứ n.
