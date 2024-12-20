@@ -1002,3 +1002,36 @@ Output #1
 
 2
 8
+
+
+
+
+
+
+
+KTHOANVI002 - Hoán vị thần kỳ
+ Báo lỗi
+Đề bài
+Cho một mảng A gồm N phần tử được đánh số từ 1 đến N và một số tự nhiên K (trong đó, 1≤N≤10^5, 0≤K<N). Gọi một hoán vị của mảng A là mảng B. Hãy viết chương trình tìm hoán vị B thỏa mãn điều kiện: Các phần tử ở cùng một vị trí trong cả A và B đều có chênh lệch bằng K (∣A[i]−B[i]∣=K với mọi i=1..N).
+
+Ví dụ: Cho một mảng gồm 4 phần tử A=[1,2,3,4],K=2. Hoán vị B=[3,4,1,2] thỏa mãn điều kiện đề bài vì: Ta có, B[0]−A[0]=3−1=2, ở các vị trí khác ta có A[2]−B[2]=3−1=2, tương tự với các vị trí còn lại.
+
+
+Dữ liệu vào
+Số lượng testcase t (t≥1).
+Với mỗi testcase, nhập vào một số nguyên dương N là độ dài của mảng và số K.
+
+Dữ liệu ra
+Mỗi dòng tương ứng với một testcase, ghi hoán vị B tìm được với mỗi phần tử cách nhau ít nhất một dấu cách hoặc ghi -1 nếu không có hoán vị nào thoả mãn.
+
+
+Ví dụ
+Input #1 
+
+2
+3 1
+4 2
+Output #1 
+
+-1
+3 4 1 2
