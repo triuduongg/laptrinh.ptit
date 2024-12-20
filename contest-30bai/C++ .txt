@@ -974,3 +974,31 @@ Output #1
 32
 1915
 
+
+
+
+
+KTDT010 - Quân tượng
+ Báo lỗi
+Đề bài
+Cho trước một số nguyên n , nhiệm vụ là in ra số quân tượng lớn nhất có thể đặt trên một bàn cờ nxn sao cho không có hai quân tượng tấn công lẫn nhau. Ví dụ: tối đa 2 tượng có thể được đặt an toàn trên bàn cờ 2 x 2.
+
+
+Dữ liệu vào
+-Dòng đầu tiên là số lượng test T (0<T<10) - Mỗi dòng tiếp theo chứa một số nguyên N tương ứng với mỗi  test (0<N<=10^18).
+
+
+Dữ liệu ra
+- Với mỗi test, ghi ra kết quả tìm được trên 1 dòng.
+
+
+Ví dụ
+Input #1 
+
+2
+2
+5
+Output #1 
+
+2
+8
