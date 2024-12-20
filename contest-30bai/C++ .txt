@@ -712,7 +712,7 @@ abc/-ak/l-*
 
 
 
-Đề bài: Bình phương số lớn
+KTCOBAN016 - Bình phương số lớn
 
 Khi làm toán, ta nhận thấy các số có dạng như sau:
 
