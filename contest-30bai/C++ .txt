@@ -448,7 +448,7 @@ Output #1
 
 
 
-KT_TONG004 - Tổng lũy thừa bậc n
+KTTONG004 - Tổng lũy thừa bậc n
 
 Đề bài
 Cho hai số nguyên dương m và n (1 ≤ m ≤ 1000 và 2 ≤ n ≤ 10). Hãy đếm số cách biểu diễn m thành tổng lũy thừa bậc n của các số tự nhiên duy nhất.
